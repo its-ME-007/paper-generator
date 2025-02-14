@@ -128,8 +128,8 @@ chat_session = model.start_chat(
   ]
 )
 
-response = chat_session.send_message("Can you generate mcqs where statements are given and the candidate has to answer which of them are true? give me 15 such questions ON MATH.give a json response.") # input a prompt like specific subject qs or more qs
-
+response = chat_session.send_message("Can you generate mcqs where statements are given and the candidate has to answer which of them are true? give me 15 such questions on current affairs.give a json response.") # input a prompt like specific subject qs or more qs
+# fine tune a model o sepcify the formatting of the output string that is to be obtained 
 def save_response_to_json(response_data, file_path):
     import json
 
