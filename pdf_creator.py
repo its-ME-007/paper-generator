@@ -1,6 +1,8 @@
 import json
 from fpdf import FPDF
+from flask import Blueprint
 
+qp_pdf = Blueprint('qp_pdf', __name__)
 # Path to the JSON file
 json_file_path = "response_data.json"  # Replace with the actual file path
 
@@ -67,6 +69,6 @@ for idx, item in enumerate(parsed_json["questions"], start=1):
     pdf.ln(5)
 
 # Save PDF
-pdf_output_path = "question_paper/question_paper.pdf"
+pdf_output_path = "question_paper/paper1.pdf"
 pdf.output(pdf_output_path)
 print(f"Question paper saved as {pdf_output_path}")

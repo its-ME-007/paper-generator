@@ -4,6 +4,9 @@
 import os
 import time
 import google.generativeai as genai
+from flask import Blueprint
+
+gemini = Blueprint('gemini', __name__)
 
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 question_count = 100
