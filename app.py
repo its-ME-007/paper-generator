@@ -141,6 +141,11 @@ def index():
     }
     return render_template('paper_generator.html', presets=PRESETS, counts=counts)
 
+@app.route('/health')
+def health_check():
+    """Simple health check endpoint for monitoring"""
+    return jsonify({'status': 'healthy', 'timestamp': datetime.now().isoformat()}), 200
+
 @app.route('/generate', methods=['POST'])
 def generate_paper():
     """Generate question paper based on user preferences"""
