@@ -1,0 +1,8 @@
+flask==3.0.0
+fpdf==1.7.2
+google-genai==1.13.0
+python-dotenv==1.0.0
+
+# Optional: For Braille conversion feature
+# python-liblouis==3.28.0
+gunicorn==21.2.0

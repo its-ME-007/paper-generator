@@ -1,0 +1,718 @@
+{
+  "questions": [
+    {
+      "question_id": 18,
+      "page": 11,
+      "question_type": "MCQ",
+      "subject": "Mathematics (3D Geometry)",
+      "question_text": "125 identical cubes are arranged in the form of a cubical block. How many cubes are surrounded by other cubes from each side?",
+      "options": {
+        "A": "27",
+        "B": "25",
+        "C": "21",
+        "D": "18"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": 19,
+      "page": 11,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Permutations)",
+      "question_text": "How many distinct 8-digit numbers can be formed by rearranging the digits of the number 11223344 such that odd digits occupy odd positions and even digits occupy even positions?",
+      "options": {
+        "A": "12",
+        "B": "18",
+        "C": "36",
+        "D": "72"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": 24,
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Pattern Recognition)",
+      "question_text": "If 7 ⊕ 9 ⊕ 10 = 8, 9 ⊕ 11 ⊕ 30 = 5, 11 ⊕ 17 ⊕ 21 = 13, what is the value of 23 ⊕ 4 ⊕ 15?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "13",
+        "D": "15"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 25,
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Number Theory)",
+      "question_text": "Let x be a positive integer such that 7x + 96 is divisible by x. How many values of x are possible?",
+      "options": {
+        "A": "10",
+        "B": "11",
+        "C": "12",
+        "D": "Infinitely many"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": 26,
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Algebra)",
+      "question_text": "If p, q, r and s are distinct single digit positive numbers, then what is the greatest value of (p + q)(r + s)?",
+      "options": {
+        "A": "230",
+        "B": "225",
+        "C": "224",
+        "D": "221"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": 27,
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Modular Arithmetic)",
+      "question_text": "A number N is formed by writing 9 for 99 times. What is the remainder if N is divided by 13?",
+      "options": {
+        "A": "11",
+        "B": "9",
+        "C": "7",
+        "D": "1"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": 28,
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Digit Properties)",
+      "question_text": "Each digit of a 9-digit number is 1. It is multiplied by itself. What is the sum of the digits of the resulting number?",
+      "options": {
+        "A": "64",
+        "B": "80",
+        "C": "81",
+        "D": "100"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 29,
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Number System)",
+      "question_text": "What is the sum of all digits which appear in all the integers from 10 to 100?",
+      "options": {
+        "A": "855",
+        "B": "856",
+        "C": "910",
+        "D": "911"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": 30,
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Geometry / Combinatorics)",
+      "question_text": "ABCD is a square. One point on each of AB and CD; and two distinct points on each of BC and DA are chosen. How many distinct triangles can be drawn using any three points as vertices out of these six points?",
+      "options": {
+        "A": "16",
+        "B": "18",
+        "C": "20",
+        "D": "24"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_21_Q37",
+      "page": 21,
+      "question_type": "MCQ",
+      "subject": "Coding-Decoding",
+      "question_text": "If 'ZERO' is written as 'CHUR', then how is 'PLAYER' written?",
+      "options": {
+        "A": "SOCAGT",
+        "B": "SODBGT",
+        "C": "SODBHT",
+        "D": "SODBHU"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_21_Q40",
+      "page": 21,
+      "question_type": "MCQ",
+      "subject": "Number System",
+      "question_text": "Choose the group which is different from the others:",
+      "options": {
+        "A": "17, 37, 47, 97",
+        "B": "31, 41, 53, 67",
+        "C": "71, 73, 79, 83",
+        "D": "83, 89, 91, 97"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_25_Q44",
+      "page": 25,
+      "question_type": "MCQ",
+      "subject": "Compound Interest",
+      "question_text": "A principal P becomes Q in 1 year when compounded half-yearly with R% annual rate of interest. If the same principal P becomes Q in 1 year when compounded annually with S% annual rate of interest, which one of the following is correct?",
+      "options": {
+        "A": "R = S",
+        "B": "R > S",
+        "C": "R < S",
+        "D": "R ≤ S"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_25_Q45",
+      "page": 25,
+      "question_type": "MCQ",
+      "subject": "Number Theory",
+      "question_text": "How many natural numbers are there which give a remainder of 31 when 1186 is divided by these natural numbers?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_27_Q47",
+      "page": 27,
+      "question_type": "MCQ",
+      "subject": "Permutations",
+      "question_text": "What is the sum of all 4-digit numbers less than 2000 formed by the digits 1, 2, 3 and 4, where none of the digits is repeated?",
+      "options": {
+        "A": "7998",
+        "B": "8028",
+        "C": "8878",
+        "D": "9238"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_27_Q48",
+      "page": 27,
+      "question_type": "MCQ",
+      "subject": "Combinatorics",
+      "question_text": "What is the number of selections of 10 consecutive things out of 12 things in a circle taken in the clockwise direction?",
+      "options": {
+        "A": "3",
+        "B": "11",
+        "C": "12",
+        "D": "66"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_27_Q49",
+      "page": 27,
+      "question_type": "MCQ",
+      "subject": "Calendars",
+      "question_text": "If today is Sunday, then which day is it exactly on the 10th day?",
+      "options": {
+        "A": "Wednesday",
+        "B": "Thursday",
+        "C": "Friday",
+        "D": "Saturday"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_27_Q50",
+      "page": 27,
+      "question_type": "MCQ",
+      "subject": "Time & Work / LCM",
+      "question_text": "There are three traffic signals. Each signal changes colour from green to red and then from red to green. The first signal takes 25 seconds, the second takes 39 seconds and the third signal takes 60 seconds to change the colour from green to red. At 2:00 p.m., they together turn green. At what time will they change to green next simultaneously?",
+      "options": {
+        "A": "4:00 p.m.",
+        "B": "4:10 p.m.",
+        "C": "4:20 p.m.",
+        "D": "4:30 p.m."
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_31_Q54",
+      "page": 31,
+      "question_type": "MCQ",
+      "subject": "Circular Movement",
+      "question_text": "40 children are standing in a circle and one of them (say child-1) has a ring. The ring is passed clockwise. Child-1 passes on to child-2, child-2 passes on to child-4, child-4 passes on to child-7 and so on. After how many such changes (including child-1) will the ring be in the hands of child-1 again?",
+      "options": {
+        "A": "14",
+        "B": "15",
+        "C": "16",
+        "D": "17"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_31_Q55",
+      "page": 31,
+      "question_type": "MCQ",
+      "subject": "Alphabet Series",
+      "question_text": "What is the middle term of the sequence Z, Z, Y, Y, Y, X, X, X, X, W, W, W, W, W, ... A?",
+      "options": {
+        "A": "H",
+        "B": "I",
+        "C": "J",
+        "D": "M"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_37_Q65",
+      "page": 37,
+      "question_type": "MCQ",
+      "subject": "Combinatorics",
+      "question_text": "In an examination, maximum marks for each of four papers are 100. Marks are integers. A student can score 99% in n different ways. What is n?",
+      "options": {
+        "A": "16",
+        "B": "17",
+        "C": "23",
+        "D": "35"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_37_Q66",
+      "page": 37,
+      "question_type": "MCQ",
+      "subject": "Permutations",
+      "question_text": "A flag has 4 horizontal stripes using colours red, green and yellow such that no two adjacent stripes have the same colour. How many ways are possible?",
+      "options": {
+        "A": "12",
+        "B": "18",
+        "C": "24",
+        "D": "36"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_37_Q67",
+      "page": 37,
+      "question_type": "MCQ",
+      "subject": "Mensuration",
+      "question_text": "A rectangular floor is 4 m × 2.2 m. Tiles of size 140 cm × 60 cm are laid. What is the maximum number of tiles?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_37_Q68",
+      "page": 37,
+      "question_type": "MCQ",
+      "subject": "Arrangements",
+      "question_text": "Five persons P, Q, R, S, T are assigned one task each. Neither P nor Q can be Task-1. Task-2 must be assigned to R or S. In how many ways can assignment be done?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "18",
+        "D": "24"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_41_Q74",
+      "page": 41,
+      "question_type": "MCQ",
+      "subject": "Modular Arithmetic",
+      "question_text": "What is the remainder when 2^192 is divided by 6?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_41_Q75",
+      "page": 41,
+      "question_type": "MCQ",
+      "subject": "Pattern Recognition",
+      "question_text": "Consider the sequence ABC_, ABC_, DABBCD_, ABCD. Which completes the sequence?",
+      "options": {
+        "A": "DACB",
+        "B": "CDAB",
+        "C": "DCCA",
+        "D": "DDCA"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_43_Q76",
+      "page": 43,
+      "question_type": "MCQ",
+      "subject": "Number Theory / Arithmetic",
+      "question_text": "AB and CD are 2-digit numbers. Multiplying AB with CD results in a 3-digit number DEF. Adding DEF to another 3-digit number GHI results in 975. Further A, B, C, D, E, F, G, H, I are distinct digits. If E = 0 and F = 8, then what is A + B + C equal to?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_43_Q80",
+      "page": 43,
+      "question_type": "MCQ",
+      "subject": "Alphabet Arrangement",
+      "question_text": "The letters of the word \"INCOMPREHENSIBILITIES\" are arranged alphabetically in reverse order. How many positions of the letters will remain unchanged?",
+      "options": {
+        "A": "None",
+        "B": "One",
+        "C": "Two",
+        "D": "Three"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q1",
+      "page": 3,
+      "question_type": "MCQ",
+      "subject": "International Institutions",
+      "question_text": "“Rapid Financing Instrument” and “Rapid Credit Facility” are related to the provisions of lending by which one of the following?",
+      "options": {
+        "A": "Asian Development Bank",
+        "B": "International Monetary Fund",
+        "C": "United Nations Environment Programme Finance Initiative",
+        "D": "World Bank"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q21",
+      "page": 13,
+      "question_type": "MCQ",
+      "subject": "Environment",
+      "question_text": "Among the following crops, which one is the most important anthropogenic source of both methane and nitrous oxide?",
+      "options": {
+        "A": "Cotton",
+        "B": "Rice",
+        "C": "Sugarcane",
+        "D": "Wheat"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q23",
+      "page": 13,
+      "question_type": "MCQ",
+      "subject": "Geography",
+      "question_text": "Which one of the following lakes of West Africa has become dry and turned into a desert?",
+      "options": {
+        "A": "Lake Victoria",
+        "B": "Lake Faguibine",
+        "C": "Lake Oguta",
+        "D": "Lake Volta"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q24",
+      "page": 13,
+      "question_type": "MCQ",
+      "subject": "Geography",
+      "question_text": "Gandikota canyon of South India was created by which one of the following rivers?",
+      "options": {
+        "A": "Cauvery",
+        "B": "Manjira",
+        "C": "Pennar",
+        "D": "Tungabhadra"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q26",
+      "page": 13,
+      "question_type": "MCQ",
+      "subject": "International Geography",
+      "question_text": "The term “Levant” often heard in the news roughly corresponds to which of the following regions?",
+      "options": {
+        "A": "Region along the eastern Mediterranean shores",
+        "B": "Region along North African shores stretching from Egypt to Morocco",
+        "C": "Region along Persian Gulf and Horn of Africa",
+        "D": "The entire coastal areas of Mediterranean Sea"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_A_Q29",
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Geography",
+      "question_text": "In the northern hemisphere, the longest day of the year normally occurs in the:",
+      "options": {
+        "A": "First half of the month of June",
+        "B": "Second half of the month of June",
+        "C": "First half of the month of July",
+        "D": "Second half of the month of July"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q30",
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Environment",
+      "question_text": "Consider the following pairs:\nWetland/Lake — Location\n1. Hokera Wetland — Punjab\n2. Renuka Wetland — Himachal Pradesh\n3. Rudrasagar Lake — Tripura\n4. Sasthamkotta Lake — Tamil Nadu\nHow many pairs given above are correctly matched?",
+      "options": {
+        "A": "Only one pair",
+        "B": "Only two pairs",
+        "C": "Only three pairs",
+        "D": "All four pairs"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q34",
+      "page": 17,
+      "question_type": "MCQ",
+      "subject": "Defence",
+      "question_text": "Which one of the following statements best reflects the idea behind the “Fractional Orbital Bombardment System” often talked about in media?",
+      "options": {
+        "A": "A hypersonic missile is launched into space to destroy an asteroid",
+        "B": "A spacecraft lands on another planet after orbital motion",
+        "C": "A missile is put into a stable orbit and deorbits over a target on Earth",
+        "D": "A spacecraft moves along a comet and places a probe"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q35",
+      "page": 17,
+      "question_type": "MCQ",
+      "subject": "Science & Tech",
+      "question_text": "Which one of the following is the context in which the term “qubit” is mentioned?",
+      "options": {
+        "A": "Cloud Services",
+        "B": "Quantum Computing",
+        "C": "Visible Light Communication Technologies",
+        "D": "Wireless Communication Technologies"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q41",
+      "page": 21,
+      "question_type": "MCQ",
+      "subject": "Environment",
+      "question_text": "“Climate Action Tracker” which monitors the emission reduction pledges of different countries is a:",
+      "options": {
+        "A": "Database created by coalition of research organisations",
+        "B": "Wing of International Panel of Climate Change",
+        "C": "Committee under United Nations Framework Convention on Climate Change",
+        "D": "Agency promoted and financed by United Nations Environment Programme and World Bank"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_A_Q43",
+      "page": 21,
+      "question_type": "MCQ",
+      "subject": "Environment",
+      "question_text": "“If rainforests and tropical forests are the lungs of the Earth, then surely wetlands function as its kidneys.” Which one of the following functions of wetlands best reflects the above statement?",
+      "options": {
+        "A": "The water cycle in wetlands involves surface runoff, subsoil percolation and evaporation",
+        "B": "Algae form the nutrient base upon which fish, crustaceans, molluscs, birds, reptiles and mammals thrive",
+        "C": "Wetlands play a vital role in maintaining sedimentation balance and soil stabilization",
+        "D": "Aquatic plants absorb heavy metals and excess nutrients"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_A_Q47",
+      "page": 23,
+      "question_type": "MCQ",
+      "subject": "Environment",
+      "question_text": "Which of the following is not a bird?",
+      "options": {
+        "A": "Golden Mahseer",
+        "B": "Indian Nightjar",
+        "C": "Spoonbill",
+        "D": "White Ibis"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_A_Q49",
+      "page": 23,
+      "question_type": "MCQ",
+      "subject": "Environment",
+      "question_text": "“Biorock technology” is talked about in which one of the following situations?",
+      "options": {
+        "A": "Restoration of damaged coral reefs",
+        "B": "Development of building materials using plant residues",
+        "C": "Identification of areas for exploration/extraction of shale gas",
+        "D": "Providing salt licks for wild animals in forests/protected areas"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_A_Q50",
+      "page": 23,
+      "question_type": "MCQ",
+      "subject": "Environment",
+      "question_text": "The “Miyawaki method” is well known for the:",
+      "options": {
+        "A": "Promotion of commercial farming in arid and semi-arid areas",
+        "B": "Development of gardens using genetically modified flora",
+        "C": "Creation of mini forests in urban areas",
+        "D": "Harvesting wind energy on coastal areas and on sea surfaces"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q52",
+      "page": 25,
+      "question_type": "MCQ",
+      "subject": "Medieval History",
+      "question_text": "In medieval India, the term “Fanam” referred to:",
+      "options": {
+        "A": "Clothing",
+        "B": "Coins",
+        "C": "Ornaments",
+        "D": "Weapons"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q58",
+      "page": 27,
+      "question_type": "MCQ",
+      "subject": "Medieval History",
+      "question_text": "With reference to Indian history, who of the following were known as “Kulah-Daran”?",
+      "options": {
+        "A": "Arab merchants",
+        "B": "Qalandars",
+        "C": "Persian calligraphists",
+        "D": "Sayyids"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_A_Q62",
+      "page": 29,
+      "question_type": "MCQ",
+      "subject": "Geography",
+      "question_text": "Consider the following States:\n1. Andhra Pradesh\n2. Kerala\n3. Himachal Pradesh\n4. Tripura\nHow many of the above are generally known as tea-producing States?",
+      "options": {
+        "A": "Only one State",
+        "B": "Only two States",
+        "C": "Only three States",
+        "D": "All four States"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q8",
+      "page": 5,
+      "question_type": "MCQ",
+      "subject": "Indian Economy",
+      "question_text": "Which one of the following situations best reflects “Indirect Transfers” often talked about in media recently with reference to India?",
+      "options": {
+        "A": "An Indian company investing in a foreign enterprise and paying taxes to the foreign country",
+        "B": "A foreign company investing in India and paying taxes to its home country",
+        "C": "An Indian company purchases tangible assets abroad and remits profits to India",
+        "D": "A foreign company transfers shares deriving substantial value from assets located in India"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P3_Q4",
+      "page": 3,
+      "question_type": "MCQ",
+      "subject": "Mathematics",
+      "question_text": "Raj has ten pairs of red, nine pairs of white and eight pairs of black shoes in a box. If he randomly picks shoes one by one (without replacement) from the box to get a red pair of shoes to wear, what is the maximum number of attempts he has to make?",
+      "options": {
+        "A": "27",
+        "B": "36",
+        "C": "44",
+        "D": "45"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P3_Q5",
+      "page": 3,
+      "question_type": "MCQ",
+      "subject": "Mathematics",
+      "question_text": "In how many ways can a batsman score exactly 25 runs by scoring single runs, fours and sixes only, irrespective of the sequence of scoring shots?",
+      "options": {
+        "A": "18",
+        "B": "19",
+        "C": "20",
+        "D": "21"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P5_Q10",
+      "page": 5,
+      "question_type": "MCQ",
+      "subject": "Mathematics",
+      "question_text": "D is a 3-digit number such that the ratio of the number to the sum of its digits is least. What is the difference between the digit at the hundred’s place and the digit at the unit’s place of D?",
+      "options": {
+        "A": "0",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P5_Q7",
+      "page": 5,
+      "question_type": "MCQ",
+      "subject": "Mathematics",
+      "question_text": "What is the remainder when 85 × 87 × 89 × 91 × 95 × 96 is divided by 100?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P5_Q8",
+      "page": 5,
+      "question_type": "MCQ",
+      "subject": "Mathematics",
+      "question_text": "What is the unit digit in the expansion of (57242)^(9×7×5×3×1)?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P5_Q9",
+      "page": 5,
+      "question_type": "MCQ",
+      "subject": "Mathematics",
+      "question_text": "If ABC and DEF are both 3-digit numbers such that A, B, C, D, E and F are distinct non-zero digits such that ABC + DEF = 1111, then what is the value of A + B + C + D + E + F?",
+      "options": {
+        "A": "28",
+        "B": "29",
+        "C": "30",
+        "D": "31"
+      },
+      "answer": "C"
+    }
+  ]
+}

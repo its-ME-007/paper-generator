@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Answers - UPSC Paper</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .nav-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 15px 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .nav-btn {
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: #5568d3;
+        }
+
+        .nav-btn.active {
+            background: #764ba2;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 100px auto 40px;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        input[type="text"], select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .questions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .question-item {
+            text-align: center;
+        }
+
+        .question-item label {
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .question-item select {
+            padding: 8px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 18px;
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.2em;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .submit-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .message {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .info-box {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 5px;
+        }
+
+        .progress-bar {
+            background: #e9ecef;
+            border-radius: 10px;
+            height: 30px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, #28a745, #20c997);
+            height: 100%;
+            transition: width 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="/" class="nav-btn">📝 Generate Paper</a>
+        <a href="/submit" class="nav-btn active">✍️ Submit Answers</a>
+    </div>
+
+    <div class="container">
+        <h1>✍️ Submit Your Answer Sheet</h1>
+
+        <div class="info-box" style="background: #fff3cd; border-color: #ffc107;">
+            <p><strong>📸 How to Submit:</strong></p>
+            <p>1. Complete your test on the question paper</p>
+            <p>2. Fill answers (A/B/C/D) clearly on a sheet</p>
+            <p>3. Take a clear photo of your answer sheet</p>
+            <p>4. Upload the image below - AI will extract and grade your answers!</p>
+        </div>
+
+        <form id="submissionForm" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="studentName">Your Name:</label>
+                <input type="text" id="studentName" name="student_name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="paperSelect">Select Paper:</label>
+                <select id="paperSelect" name="paper_id" onchange="loadPaper()" required>
+                    <option value="">-- Select a paper --</option>
+                    {% for paper_id in papers %}
+                    <option value="{{ paper_id }}">Paper {{ paper_id }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div id="paperInfo" class="info-box" style="display: none;">
+                <p><strong>Paper ID:</strong> <span id="paperId"></span></p>
+                <p><strong>Total Questions:</strong> <span id="totalQuestions"></span></p>
+                <p><strong>Generated:</strong> <span id="generatedAt"></span></p>
+            </div>
+
+            <div class="form-group" id="imageUploadSection" style="display: none;">
+                <label for="answerSheet">Upload Answer Sheet Image:</label>
+                <input type="file" id="answerSheet" name="answer_sheet" accept="image/*" capture="camera" required 
+                       style="padding: 15px; border: 3px dashed #667eea; background: #f8f9fa; cursor: pointer;">
+                <p style="margin-top: 10px; color: #666; font-size: 0.9em;">
+                    📱 Supported formats: JPG, PNG, HEIC | Max size: 10MB<br>
+                    💡 Tip: Ensure good lighting and all answers are clearly visible
+                </p>
+                <div id="imagePreview" style="margin-top: 15px; display: none;">
+                    <img id="previewImg" style="max-width: 100%; border-radius: 10px; border: 2px solid #ddd;" />
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn" id="submitBtn" disabled>
+                🤖 Submit & AI Grade
+            </button>
+        </form>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>🤖 AI is reading your answer sheet and grading...</p>
+            <p style="font-size: 0.9em; color: #666;">This may take 10-20 seconds</p>
+        </div>
+
+        <div class="message" id="message"></div>
+    </div>
+
+    <script>
+        let currentPaper = null;
+
+        async function loadPaper() {
+            const paperId = document.getElementById('paperSelect').value;
+            if (!paperId) {
+                document.getElementById('paperInfo').style.display = 'none';
+                document.getElementById('imageUploadSection').style.display = 'none';
+                document.getElementById('submitBtn').disabled = true;
+                return;
+            }
+
+            try {
+                const response = await fetch(`/get_paper/${paperId}`);
+                const data = await response.json();
+                
+                if (response.ok) {
+                    currentPaper = data;
+                    displayPaper(data);
+                } else {
+                    alert('Error loading paper: ' + data.error);
+                }
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        function displayPaper(paper) {
+            document.getElementById('paperInfo').style.display = 'block';
+            document.getElementById('paperId').textContent = paper.paper_id;
+            document.getElementById('totalQuestions').textContent = paper.questions.length;
+            document.getElementById('generatedAt').textContent = new Date(paper.generated_at).toLocaleString();
+            
+            document.getElementById('imageUploadSection').style.display = 'block';
+            document.getElementById('submitBtn').disabled = false;
+        }
+
+        // Image preview
+        document.getElementById('answerSheet').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    document.getElementById('previewImg').src = e.target.result;
+                    document.getElementById('imagePreview').style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+
+        // Form submission
+        document.getElementById('submissionForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const studentName = document.getElementById('studentName').value.trim();
+            const answerSheet = document.getElementById('answerSheet').files[0];
+
+            if (!studentName) {
+                alert('Please enter your name');
+                return;
+            }
+
+            if (!currentPaper) {
+                alert('Please select a paper');
+                return;
+            }
+
+            if (!answerSheet) {
+                alert('Please upload your answer sheet image');
+                return;
+            }
+
+            const messageDiv = document.getElementById('message');
+            const loadingDiv = document.getElementById('loading');
+            const submitBtn = document.getElementById('submitBtn');
+
+            messageDiv.style.display = 'none';
+            loadingDiv.style.display = 'block';
+            submitBtn.disabled = true;
+
+            try {
+                // Create form data
+                const formData = new FormData();
+                formData.append('paper_id', currentPaper.paper_id);
+                formData.append('student_name', studentName);
+                formData.append('answer_sheet', answerSheet);
+
+                // Submit answers
+                const response = await fetch('/submit_answers', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+                loadingDiv.style.display = 'none';
+
+                if (response.ok) {
+                    messageDiv.className = 'message success';
+                    messageDiv.innerHTML = `
+                        ✅ <strong>Submission Successful!</strong><br><br>
+                        <strong>Your Score:</strong> ${data.statistics.score}/160 (${data.statistics.percentage}%)<br>
+                        <strong>Correct:</strong> ${data.statistics.correct} | 
+                        <strong>Incorrect:</strong> ${data.statistics.incorrect} | 
+                        <strong>Unanswered:</strong> ${data.statistics.unanswered}<br><br>
+                        <a href="/results/${data.submission_id}" style="color: #667eea; font-weight: 600;">
+                            📊 View Detailed Results & AI Feedback
+                        </a>
+                    `;
+                    messageDiv.style.display = 'block';
+                } else {
+                    messageDiv.className = 'message error';
+                    messageDiv.textContent = '❌ Error: ' + data.error;
+                    messageDiv.style.display = 'block';
+                }
+            } catch (error) {
+                loadingDiv.style.display = 'none';
+                messageDiv.className = 'message error';
+                messageDiv.textContent = '❌ Error: ' + error.message;
+                messageDiv.style.display = 'block';
+            } finally {
+                submitBtn.disabled = false;
+            }
+        });
+    </script>
+</body>
+</html>

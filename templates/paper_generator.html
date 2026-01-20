@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPSC Question Paper Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nav-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 15px 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .nav-btn {
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: #5568d3;
+        }
+
+        .nav-btn.active {
+            background: #764ba2;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            width: 100%;
+            padding: 40px;
+            margin-top: 80px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .info-box {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+        }
+
+        .info-box p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .presets {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .preset-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .preset-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .preset-btn:active {
+            transform: translateY(0);
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            gap: 15px;
+        }
+
+        .input-label {
+            flex: 1;
+            font-weight: 600;
+            color: #555;
+            font-size: 1.1em;
+        }
+
+        .input-label span {
+            font-size: 0.85em;
+            color: #888;
+            font-weight: normal;
+        }
+
+        input[type="number"] {
+            width: 120px;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1.1em;
+            text-align: center;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="number"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .total-display {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+            border: 2px solid #ddd;
+        }
+
+        .total-display.valid {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+
+        .total-display.invalid {
+            background: #f8d7da;
+            border-color: #dc3545;
+        }
+
+        .total-text {
+            font-size: 1.5em;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .generate-btn {
+            width: 100%;
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            border: none;
+            padding: 18px;
+            border-radius: 10px;
+            font-size: 1.2em;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+        }
+
+        .generate-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+        }
+
+        .generate-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            box-shadow: none;
+        }
+
+        .message {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .download-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+
+        .download-btn:hover {
+            background: #5568d3;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="/" class="nav-btn active">📝 Generate Paper</a>
+        <a href="/submit" class="nav-btn">✍️ Submit Answers</a>
+    </div>
+
+    <div class="container">
+        <h1>📝 UPSC Question Paper Generator</h1>
+        <p class="subtitle">Create custom practice papers from your question database</p>
+
+        <div class="info-box">
+            <p><strong>Available Questions:</strong></p>
+            <p>• MCQ: {{ counts.mcq }} questions</p>
+            <p>• Statement-based: {{ counts.statement }} questions</p>
+            <p>• Passage-based: {{ counts.passage }} questions</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Quick Presets</h2>
+            <div class="presets">
+                <button class="preset-btn" onclick="applyPreset('balanced')">
+                    Balanced<br><small>(30-30-20)</small>
+                </button>
+                <button class="preset-btn" onclick="applyPreset('mcq_heavy')">
+                    MCQ Heavy<br><small>(50-20-10)</small>
+                </button>
+                <button class="preset-btn" onclick="applyPreset('statement_heavy')">
+                    Statement Heavy<br><small>(20-40-20)</small>
+                </button>
+                <button class="preset-btn" onclick="applyPreset('passage_heavy')">
+                    Passage Heavy<br><small>(20-20-40)</small>
+                </button>
+                <button class="preset-btn" onclick="applyPreset('equal')">
+                    Equal Split<br><small>(27-27-26)</small>
+                </button>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Custom Configuration</h2>
+            <div class="input-group">
+                <div class="input-row">
+                    <label class="input-label">
+                        MCQ Questions<br>
+                        <span>Multiple choice questions</span>
+                    </label>
+                    <input type="number" id="mcq" min="0" max="{{ counts.mcq }}" value="30" onchange="updateTotal()">
+                </div>
+                <div class="input-row">
+                    <label class="input-label">
+                        Statement-Based Questions<br>
+                        <span>Questions with multiple statements</span>
+                    </label>
+                    <input type="number" id="statement" min="0" max="{{ counts.statement }}" value="30" onchange="updateTotal()">
+                </div>
+                <div class="input-row">
+                    <label class="input-label">
+                        Passage-Based Questions<br>
+                        <span>Comprehension-based questions</span>
+                    </label>
+                    <input type="number" id="passage" min="0" max="{{ counts.passage }}" value="20" onchange="updateTotal()">
+                </div>
+            </div>
+
+            <div class="total-display" id="totalDisplay">
+                <div class="total-text">
+                    Total: <span id="totalQuestions">80</span> / 80
+                </div>
+            </div>
+
+            <button class="generate-btn" id="generateBtn" onclick="generatePaper()">
+                Generate Question Paper
+            </button>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Generating your question paper...</p>
+        </div>
+
+        <div class="message" id="message"></div>
+    </div>
+
+    <script>
+        const presets = {{ presets | tojson }};
+
+        function applyPreset(presetName) {
+            const preset = presets[presetName];
+            document.getElementById('mcq').value = preset.mcq;
+            document.getElementById('statement').value = preset.statement;
+            document.getElementById('passage').value = preset.passage;
+            updateTotal();
+        }
+
+        function updateTotal() {
+            const mcq = parseInt(document.getElementById('mcq').value) || 0;
+            const statement = parseInt(document.getElementById('statement').value) || 0;
+            const passage = parseInt(document.getElementById('passage').value) || 0;
+            const total = mcq + statement + passage;
+
+            document.getElementById('totalQuestions').textContent = total;
+            
+            const totalDisplay = document.getElementById('totalDisplay');
+            const generateBtn = document.getElementById('generateBtn');
+            
+            totalDisplay.classList.remove('valid', 'invalid');
+            
+            if (total === 80) {
+                totalDisplay.classList.add('valid');
+                generateBtn.disabled = false;
+            } else {
+                totalDisplay.classList.add('invalid');
+                generateBtn.disabled = true;
+            }
+        }
+
+        async function generatePaper() {
+            const mcq = parseInt(document.getElementById('mcq').value);
+            const statement = parseInt(document.getElementById('statement').value);
+            const passage = parseInt(document.getElementById('passage').value);
+
+            const messageDiv = document.getElementById('message');
+            const loadingDiv = document.getElementById('loading');
+            const generateBtn = document.getElementById('generateBtn');
+
+            messageDiv.style.display = 'none';
+            loadingDiv.style.display = 'block';
+            generateBtn.disabled = true;
+
+            try {
+                const response = await fetch('/generate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        mcq: mcq,
+                        statement: statement,
+                        passage: passage
+                    })
+                });
+
+                const data = await response.json();
+                loadingDiv.style.display = 'none';
+
+                if (response.ok) {
+                    messageDiv.className = 'message success';
+                    messageDiv.innerHTML = `
+                        ✅ ${data.message}<br>
+                        <strong>Paper ID: ${data.paper_id}</strong><br>
+                        <a href="${data.pdf_url}" class="download-btn">📥 Download Question Paper</a>
+                        <a href="${data.braille_url}" class="download-btn" style="background: #6610f2; margin-left: 10px;">⠃ Download Braille Version</a><br>
+                        <a href="${data.answer_key_url}" class="download-btn" style="background: #dc3545; margin-top: 10px;">🔑 Download Answer Key (For Review Only)</a><br>
+                        <div style="margin-top: 15px;">
+                            <strong>🌐 Translate to:</strong><br>
+                            <select id="languageSelect" style="padding: 8px; margin: 10px 5px; border-radius: 5px;">
+                                <option value="">-- Select Language --</option>
+                                <option value="hindi">Hindi (हिंदी)</option>
+                                <option value="tamil">Tamil (தமிழ்)</option>
+                                <option value="telugu">Telugu (తెలుగు)</option>
+                                <option value="bengali">Bengali (বাংলা)</option>
+                                <option value="marathi">Marathi (मराठी)</option>
+                                <option value="gujarati">Gujarati (ગુજરાતી)</option>
+                                <option value="kannada">Kannada (ಕನ್ನಡ)</option>
+                                <option value="malayalam">Malayalam (മലയാളം)</option>
+                                <option value="punjabi">Punjabi (ਪੰਜਾਬੀ)</option>
+                                <option value="urdu">Urdu (اردو)</option>
+                            </select>
+                            <button onclick="translatePaper('${data.paper_id}')" class="download-btn" style="margin: 0; padding: 8px 20px;">
+                                🔄 Translate
+                            </button>
+                            <div id="translationStatus" style="margin-top: 10px;"></div>
+                        </div>
+                    `;
+                    messageDiv.style.display = 'block';
+                } else {
+                    messageDiv.className = 'message error';
+                    messageDiv.textContent = `❌ Error: ${data.error}`;
+                    messageDiv.style.display = 'block';
+                }
+            } catch (error) {
+                loadingDiv.style.display = 'none';
+                messageDiv.className = 'message error';
+                messageDiv.textContent = `❌ Error: ${error.message}`;
+                messageDiv.style.display = 'block';
+            } finally {
+                generateBtn.disabled = false;
+                updateTotal();
+            }
+        }
+
+        async function translatePaper(paperId) {
+            const language = document.getElementById('languageSelect').value;
+            if (!language) {
+                alert('Please select a language');
+                return;
+            }
+
+            const statusDiv = document.getElementById('translationStatus');
+            statusDiv.innerHTML = '<div style="color: #667eea;">🔄 Translating... This may take 30-60 seconds...</div>';
+
+            try {
+                const response = await fetch(`/translate/${paperId}/${language}`, {
+                    method: 'POST'
+                });
+                const data = await response.json();
+
+                if (response.ok) {
+                    statusDiv.innerHTML = `
+                        <div style="color: #28a745;">✅ Translation complete!</div>
+                        <a href="${data.pdf_url}" class="download-btn" style="margin-top: 10px;">
+                            📥 Download Translated Paper
+                        </a>
+                    `;
+                } else {
+                    statusDiv.innerHTML = `<div style="color: #dc3545;">❌ Error: ${data.error}</div>`;
+                }
+            } catch (error) {
+                statusDiv.innerHTML = `<div style="color: #dc3545;">❌ Error: ${error.message}</div>`;
+            }
+        }
+
+        // Initialize on page load
+        updateTotal();
+    </script>
+</body>
+</html>

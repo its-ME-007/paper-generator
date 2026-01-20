@@ -1,0 +1,395 @@
+{ 
+  "questions": [
+    {
+      "question_id": 21,
+      "page": 13,
+      "question_type": "Reading Comprehension",
+      "subject": "Environment / Public Policy",
+      "question_text": "Which one of the following statements best reflects the most logical and rational implication conveyed by the passage?",
+      "options": {
+        "A": "Arbitrary curbs on vehicles to reduce pollution are difficult to implement.",
+        "B": "Knee-jerk reactions cannot solve the problem of pollution but an evidence-based approach will be more effective.",
+        "C": "A heavy penalty should be enforced on those driving without periodic pollution tests.",
+        "D": "In the absence of laws to deal with pollution, the administration tends to make arbitrary decisions."
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 22,
+      "page": 13,
+      "question_type": "Reading Comprehension",
+      "subject": "Economics / Corporate Governance",
+      "question_text": "Which of the following statements best reflects the logical inference from the passage given above?",
+      "options": {
+        "A": "It is an important agenda of the countries around the world to ensure access to good external financing.",
+        "B": "Good corporate governance improves the credibility of the firms.",
+        "C": "International capital markets ensure that firms maintain good corporate governance.",
+        "D": "Good corporate governance paves the way for robust supply chains."
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 23,
+      "page": 15,
+      "question_type": "Reading Comprehension",
+      "subject": "Environment / Ecology",
+      "question_text": "Which one of the following statements best reflects the most logical and rational inference that can be drawn from the passage?",
+      "options": {
+        "A": "The home range of elephants needs to be a vast area of rich biodiversity.",
+        "B": "Elephants are the keystone species and they benefit the biodiversity.",
+        "C": "Rich biodiversity cannot be maintained in forests without elephants.",
+        "D": "Elephants are capable of regenerating forests with species as per their requirement."
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 31,
+      "page": 17,
+      "question_type": "Reading Comprehension",
+      "subject": "Environment / Waste Management",
+      "question_text": "Based on the above passage, the following assumptions have been made:\n1. Collection, processing and segregation of municipal waste should be with government agencies.\n2. Resource recovery and recycling require technological inputs that can be best handled by private sector enterprises.\nWhich of the assumptions given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 32,
+      "page": 17,
+      "question_type": "Reading Comprehension",
+      "subject": "Environment / Energy",
+      "question_text": "Which one of the following statements best reflects the crux of the passage?",
+      "options": {
+        "A": "Generation of energy from municipal solid waste is inexpensive.",
+        "B": "Biomethanation is the most ideal way of generating energy from municipal solid waste.",
+        "C": "Segregation of municipal solid waste is the first step in ensuring the success of waste-to-energy plants.",
+        "D": "The biodegradable component of India’s municipal solid waste is not adequate to provide energy from waste efficiently."
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": 33,
+      "page": 19,
+      "question_type": "Reading Comprehension",
+      "subject": "Agriculture / Public Health",
+      "question_text": "Based on the above passage, the following assumptions have been made:\n1. Organic farming is inherently unsafe for both farmers and consumers.\n2. Farmers and consumers need to be educated about eco-friendly food.\nWhich of the assumptions given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 34,
+      "page": 19,
+      "question_type": "Reading Comprehension",
+      "subject": "Agriculture / Policy",
+      "question_text": "Which one of the following statements best reflects the most logical, rational and practical message conveyed by the author of the passage?",
+      "options": {
+        "A": "In India, organic farming should not be promoted as a substitute for conventional farming.",
+        "B": "There are no safe organic alternatives to chemical fertilizers.",
+        "C": "In India, farmers need to be guided and helped to make their organic farming sustainable.",
+        "D": "The aim of organic farming should not be to generate huge profits as there is still no global market for its products."
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": 35,
+      "page": 19,
+      "question_type": "Reading Comprehension",
+      "subject": "Food Security / Agriculture",
+      "question_text": "Based on the above passage, the following assumptions have been made:\n1. To implement the Sustainable Development Goals and to achieve zero-hunger goal, monoculture agriculture practices are inevitable even if they do not address malnutrition.\n2. Dependence on a few crops has negative consequences for human health and the ecosystem.\n3. Government policies regarding food planning need to incorporate nutritional security.\n4. For the present monoculture agriculture practices, farmers receive subsidies in various ways and government offers remunerative prices for grains and therefore they do not tend to consider crop diversity.\nWhich of the above assumptions are valid?",
+      "options": {
+        "A": "1, 2 and 4 only",
+        "B": "2 and 3 only",
+        "C": "3 and 4 only",
+        "D": "1, 2, 3 and 4"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_23_Q41",
+      "page": 23,
+      "question_type": "Reading Comprehension",
+      "subject": "Climate Change / Ecology",
+      "passage_text": "Scientists studied the vernal window — transition period from winter to the growing season. They found that warmer winters with less snow resulted in a longer lag time between spring events and a more protracted vernal window. This change in the spring timetable has ecological, social and economic consequences — for agriculture, fisheries and tourism. As the ice melts earlier, the birds don’t return, causing a delay or lengthening in springtime ecological events.",
+      "question_text": "With reference to the above passage, the following assumptions have been made:\n1. Global warming is causing spring to come early and for longer durations.\n2. Early spring and longer period of spring is not good for bird populations.\nWhich of the above assumptions is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_23_Q42",
+      "page": 23,
+      "question_type": "Reading Comprehension",
+      "subject": "Environment / Agriculture",
+      "passage_text": "A global analysis of nitrogen use efficiency shows that excessive fertilizer use increases pollution of waterways and air. Only 40% of nitrogen applied to cropland is used by crops, while the rest is lost to the environment, causing nitrous oxide emissions and eutrophication of water bodies.",
+      "question_text": "Which one of the following statements best reflects the most logical, rational and crucial message implied by the passage?",
+      "options": {
+        "A": "Enhanced efficiency of nitrogen use is imperative for both food production and environment",
+        "B": "Production of synthetic nitrogen fertilizers cannot be stopped",
+        "C": "Alternatives to nitrogen-intensive crops should be identified",
+        "D": "Conventional agriculture should be replaced with organic farming"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_25_Q43",
+      "page": 25,
+      "question_type": "Reading Comprehension",
+      "subject": "Climate Justice",
+      "passage_text": "Climate justice is regarded as a significant principle in environmental parlance. It includes not just mitigation but also adaptation, support for victims and compensation for loss and damage due to climate change.",
+      "question_text": "Which one of the following statements best reflects the most logical, rational and crucial message conveyed by the passage?",
+      "options": {
+        "A": "Climate justice should be ingrained in new climate agreements",
+        "B": "Environmental resources are unevenly distributed",
+        "C": "There is an impending issue of climate refugees",
+        "D": "Developed countries should bear more climate burden"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_27_Q51",
+      "page": 27,
+      "question_type": "Reading Comprehension",
+      "subject": "Food Security / Agroforestry",
+      "passage_text": "Sourcing food from non-agricultural lands like forests and wetlands allows rural communities to sustain themselves year-round. Forest foods provide resilience during crop failures and seasonal shortages.",
+      "question_text": "Which one of the following statements best reflects the most logical and rational message conveyed by the author?",
+      "options": {
+        "A": "Food yielding trees should replace other trees",
+        "B": "Food security cannot be ensured with conventional agriculture",
+        "C": "Wastelands should be converted to agroforestry",
+        "D": "Agroecosystems should be developed along with conventional agriculture"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_29_Q52",
+      "page": 29,
+      "question_type": "Reading Comprehension",
+      "subject": "Public Health / Environment",
+      "passage_text": "Pollution from antibiotic manufacturing plants contributes to drug-resistant bacteria. The environmental impact of untreated pharmaceutical waste is a major public health concern.",
+      "question_text": "Which one of the following statements best reflects the most logical and practical message conveyed by the passage?",
+      "options": {
+        "A": "Proper effluent treatment protocols must be implemented",
+        "B": "Environmental awareness should be promoted",
+        "C": "Drug resistance is inevitable",
+        "D": "Pharma units should be shifted to rural areas"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_29_Q53",
+      "page": 29,
+      "question_type": "Reading Comprehension",
+      "subject": "Education / Economy",
+      "passage_text": "Benefits of quality school education accrue only when students acquire foundational skills. Without strong primary education, higher education and skill development cannot succeed.",
+      "question_text": "Which one of the following statements best reflects the crux of the passage?",
+      "options": {
+        "A": "India must invest in universal quality education",
+        "B": "India cannot become a global power",
+        "C": "Focus should be on higher education skills",
+        "D": "Parents are unaware of education benefits"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_33_Q61",
+      "page": 33,
+      "question_type": "Reading Comprehension",
+      "subject": "Philosophy / Society",
+      "passage_text": "The paradox of choice is illustrated by the story of Buridan’s ass... Many people are overwhelmed with attractive life choices, yet find themselves unhappy and anxious.",
+      "question_text": "Which one of the following statements best reflects the most logical message implied by the passage?",
+      "options": {
+        "A": "Modern technology enfeebles society",
+        "B": "Modern life is full of uncertainties and difficult choices",
+        "C": "We lack courage to follow convictions",
+        "D": "Too many choices can be as difficult as too few"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_35_Q62",
+      "page": 35,
+      "question_type": "Reading Comprehension",
+      "subject": "Economy / Finance",
+      "passage_text": "Household finance in India is unique... hurdles include bureaucracy, lack of information and scepticism of institutions.",
+      "question_text": "Regarding the financialization of household savings, which statements best reflect the solutions implied by the passage?\n1. Flexible environment is needed.\n2. Households need customised solutions.\n3. Innovations in financial technology are required.",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_35_Q63",
+      "page": 35,
+      "question_type": "Reading Comprehension",
+      "subject": "Health / Public Policy",
+      "passage_text": "Pharmaceutical patents grant protection... governments need to balance innovation incentives with affordability.",
+      "question_text": "Which of the following assumptions are valid?",
+      "options": {
+        "A": "1 and 2",
+        "B": "1 and 4",
+        "C": "3 and 4",
+        "D": "2 and 3"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_37_Q64",
+      "page": 37,
+      "question_type": "Reading Comprehension",
+      "subject": "Digital Economy / Privacy",
+      "passage_text": "India should ensure growth of the digital economy while keeping personal data secure...",
+      "question_text": "Which of the above assumptions is/are valid?\n1. Privacy has economic value.\n2. There is a link between privacy and innovation.",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_39_Q71",
+      "page": 39,
+      "question_type": "Reading Comprehension",
+      "subject": "Economy / Employment",
+      "passage_text": "In India, unemployment rate is often misleading due to rising enrolment...",
+      "question_text": "Which statement best reflects what the author intends to say?",
+      "options": {
+        "A": "Education quality is poor",
+        "B": "Unemployment reflects rising education and aspirations",
+        "C": "Lack of industries causes unemployment",
+        "D": "Education should enable self-employment"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_41_Q72",
+      "page": 41,
+      "question_type": "Reading Comprehension",
+      "subject": "Science & Philosophy",
+      "passage_text": "Science by itself is not enough... politics becomes destructive when divorced from philosophy.",
+      "question_text": "Which statement best reflects the message conveyed?",
+      "options": {
+        "A": "Statesmen need scientific and philosophical training",
+        "B": "Governments should not be empirical",
+        "C": "Education should train citizens early",
+        "D": "Scientists must be philosophers"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_41_Q73",
+      "page": 41,
+      "question_type": "Reading Comprehension",
+      "subject": "Political Philosophy",
+      "passage_text": "The last end of the state is not to dominate men...",
+      "question_text": "Which term best expresses the ultimate goal of the state?",
+      "options": {
+        "A": "Personal safety",
+        "B": "Health of body and mind",
+        "C": "Communal harmony",
+        "D": "Liberty"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P3_Q1",
+      "page": 3,
+      "question_type": "Reading Comprehension",
+      "subject": "Environment / Water Governance",
+      "question_text": "Which one of the following statements best reflects the most rational, practical and immediate action required to ensure fair and equitable allocation of water to different stakeholders?",
+      "options": {
+        "A": "A national, pragmatic, legal and policy framework for water allocation should be made.",
+        "B": "All river systems of the country should be linked and huge aquifers created.",
+        "C": "Water channels between regions of water surplus and regions of water deficit should be created.",
+        "D": "To mitigate water crisis, water demand of sectors such as agriculture and industry should be reduced."
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P3_Q2",
+      "page": 3,
+      "question_type": "Reading Comprehension",
+      "subject": "Health / Nutrition / Economy",
+      "question_text": "Which one of the following statements best reflects what is implied by the passage?",
+      "options": {
+        "A": "Education system must be strengthened in rural areas.",
+        "B": "Large-scale and effective implementation of skill development programme is the need of the hour.",
+        "C": "For economic development, health and nutrition of only skilled workers needs special attention.",
+        "D": "For rapid economic growth as envisaged by us, attention should be paid to health and nutrition of the people."
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P3_Q3",
+      "page": 3,
+      "question_type": "Reading Comprehension",
+      "subject": "Climate Change / Agriculture",
+      "question_text": "Which one of the following statements best reflects the most logical and rational message conveyed by the author of the passage?",
+      "options": {
+        "A": "Adaptation to climate change and mitigation response are basically the responsibilities of the government.",
+        "B": "Climate change causes a change in government policies regarding land use patterns in the country.",
+        "C": "Risk perceptions of farmers are important for motivating them for taking adaptation decisions.",
+        "D": "Since mitigation is not possible, governments should come up with policies for quick response to climate change."
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P5_Q11",
+      "page": 5,
+      "question_type": "Reading Comprehension",
+      "subject": "Climate Change / Environment",
+      "question_text": "Which one of the following statements best reflects the crucial message conveyed by the author of the passage?",
+      "options": {
+        "A": "Businesses that cause emissions may need to close down or pay for pollution in future.",
+        "B": "The only solution is technological development related to the issues of climate change.",
+        "C": "Waiting to deal with carbon emissions until technology improves is not a wise strategy.",
+        "D": "Since future technological change is uncertain, new industries should be based on renewable energy sources."
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P5_Q12",
+      "page": 5,
+      "question_type": "Reading Comprehension",
+      "subject": "Environment / Health",
+      "question_text": "Which one of the following statements best implies the most rational assumption that can be made from the passage?",
+      "options": {
+        "A": "We are likely to spend more money on cure than prevention.",
+        "B": "It is the job of the government to solve our environmental and public health problems.",
+        "C": "Health can be protected even if environmental problems go on unattended.",
+        "D": "Loss of traditional lifestyle and the influence of western values led to some unhealthy ways of living."
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P5_Q13",
+      "page": 5,
+      "question_type": "Reading Comprehension",
+      "subject": "Nutrition / Food Systems",
+      "question_text": "Which one of the following statements best reflects the crux of the passage?",
+      "options": {
+        "A": "The scheme of Universal Basic Income should be implemented worldwide as a way of poverty alleviation.",
+        "B": "We must place food-based nutrition at the centre of our policy debate.",
+        "C": "Nutritional status of food should be improved by creating appropriate genetically modified crops.",
+        "D": "Using modern food processing technologies, we must fortify food items with required nutrient elements."
+      },
+      "answer": "B"
+    }
+  ]
+}

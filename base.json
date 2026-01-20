@@ -1,0 +1,2019 @@
+{
+  "questions": [
+    {
+      "question_id": 18,
+      "page": 11,
+      "question_type": "MCQ",
+      "subject": "Mathematics (3D Geometry)",
+      "question_text": "125 identical cubes are arranged in the form of a cubical block. How many cubes are surrounded by other cubes from each side?",
+      "options": {
+        "A": "27",
+        "B": "25",
+        "C": "21",
+        "D": "18"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": 19,
+      "page": 11,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Permutations)",
+      "question_text": "How many distinct 8-digit numbers can be formed by rearranging the digits of the number 11223344 such that odd digits occupy odd positions and even digits occupy even positions?",
+      "options": {
+        "A": "12",
+        "B": "18",
+        "C": "36",
+        "D": "72"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": 24,
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Pattern Recognition)",
+      "question_text": "If 7 ⊕ 9 ⊕ 10 = 8, 9 ⊕ 11 ⊕ 30 = 5, 11 ⊕ 17 ⊕ 21 = 13, what is the value of 23 ⊕ 4 ⊕ 15?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "13",
+        "D": "15"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 25,
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Number Theory)",
+      "question_text": "Let x be a positive integer such that 7x + 96 is divisible by x. How many values of x are possible?",
+      "options": {
+        "A": "10",
+        "B": "11",
+        "C": "12",
+        "D": "Infinitely many"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": 26,
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Algebra)",
+      "question_text": "If p, q, r and s are distinct single digit positive numbers, then what is the greatest value of (p + q)(r + s)?",
+      "options": {
+        "A": "230",
+        "B": "225",
+        "C": "224",
+        "D": "221"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": 27,
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Modular Arithmetic)",
+      "question_text": "A number N is formed by writing 9 for 99 times. What is the remainder if N is divided by 13?",
+      "options": {
+        "A": "11",
+        "B": "9",
+        "C": "7",
+        "D": "1"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": 28,
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Digit Properties)",
+      "question_text": "Each digit of a 9-digit number is 1. It is multiplied by itself. What is the sum of the digits of the resulting number?",
+      "options": {
+        "A": "64",
+        "B": "80",
+        "C": "81",
+        "D": "100"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 29,
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Number System)",
+      "question_text": "What is the sum of all digits which appear in all the integers from 10 to 100?",
+      "options": {
+        "A": "855",
+        "B": "856",
+        "C": "910",
+        "D": "911"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": 30,
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Mathematics (Geometry / Combinatorics)",
+      "question_text": "ABCD is a square. One point on each of AB and CD; and two distinct points on each of BC and DA are chosen. How many distinct triangles can be drawn using any three points as vertices out of these six points?",
+      "options": {
+        "A": "16",
+        "B": "18",
+        "C": "20",
+        "D": "24"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_21_Q37",
+      "page": 21,
+      "question_type": "MCQ",
+      "subject": "Coding-Decoding",
+      "question_text": "If 'ZERO' is written as 'CHUR', then how is 'PLAYER' written?",
+      "options": {
+        "A": "SOCAGT",
+        "B": "SODBGT",
+        "C": "SODBHT",
+        "D": "SODBHU"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_21_Q40",
+      "page": 21,
+      "question_type": "MCQ",
+      "subject": "Number System",
+      "question_text": "Choose the group which is different from the others:",
+      "options": {
+        "A": "17, 37, 47, 97",
+        "B": "31, 41, 53, 67",
+        "C": "71, 73, 79, 83",
+        "D": "83, 89, 91, 97"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_25_Q44",
+      "page": 25,
+      "question_type": "MCQ",
+      "subject": "Compound Interest",
+      "question_text": "A principal P becomes Q in 1 year when compounded half-yearly with R% annual rate of interest. If the same principal P becomes Q in 1 year when compounded annually with S% annual rate of interest, which one of the following is correct?",
+      "options": {
+        "A": "R = S",
+        "B": "R > S",
+        "C": "R < S",
+        "D": "R ≤ S"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_25_Q45",
+      "page": 25,
+      "question_type": "MCQ",
+      "subject": "Number Theory",
+      "question_text": "How many natural numbers are there which give a remainder of 31 when 1186 is divided by these natural numbers?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_27_Q47",
+      "page": 27,
+      "question_type": "MCQ",
+      "subject": "Permutations",
+      "question_text": "What is the sum of all 4-digit numbers less than 2000 formed by the digits 1, 2, 3 and 4, where none of the digits is repeated?",
+      "options": {
+        "A": "7998",
+        "B": "8028",
+        "C": "8878",
+        "D": "9238"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_27_Q48",
+      "page": 27,
+      "question_type": "MCQ",
+      "subject": "Combinatorics",
+      "question_text": "What is the number of selections of 10 consecutive things out of 12 things in a circle taken in the clockwise direction?",
+      "options": {
+        "A": "3",
+        "B": "11",
+        "C": "12",
+        "D": "66"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_27_Q49",
+      "page": 27,
+      "question_type": "MCQ",
+      "subject": "Calendars",
+      "question_text": "If today is Sunday, then which day is it exactly on the 10th day?",
+      "options": {
+        "A": "Wednesday",
+        "B": "Thursday",
+        "C": "Friday",
+        "D": "Saturday"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_27_Q50",
+      "page": 27,
+      "question_type": "MCQ",
+      "subject": "Time & Work / LCM",
+      "question_text": "There are three traffic signals. Each signal changes colour from green to red and then from red to green. The first signal takes 25 seconds, the second takes 39 seconds and the third signal takes 60 seconds to change the colour from green to red. At 2:00 p.m., they together turn green. At what time will they change to green next simultaneously?",
+      "options": {
+        "A": "4:00 p.m.",
+        "B": "4:10 p.m.",
+        "C": "4:20 p.m.",
+        "D": "4:30 p.m."
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_31_Q54",
+      "page": 31,
+      "question_type": "MCQ",
+      "subject": "Circular Movement",
+      "question_text": "40 children are standing in a circle and one of them (say child-1) has a ring. The ring is passed clockwise. Child-1 passes on to child-2, child-2 passes on to child-4, child-4 passes on to child-7 and so on. After how many such changes (including child-1) will the ring be in the hands of child-1 again?",
+      "options": {
+        "A": "14",
+        "B": "15",
+        "C": "16",
+        "D": "17"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_31_Q55",
+      "page": 31,
+      "question_type": "MCQ",
+      "subject": "Alphabet Series",
+      "question_text": "What is the middle term of the sequence Z, Z, Y, Y, Y, X, X, X, X, W, W, W, W, W, ... A?",
+      "options": {
+        "A": "H",
+        "B": "I",
+        "C": "J",
+        "D": "M"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_37_Q65",
+      "page": 37,
+      "question_type": "MCQ",
+      "subject": "Combinatorics",
+      "question_text": "In an examination, maximum marks for each of four papers are 100. Marks are integers. A student can score 99% in n different ways. What is n?",
+      "options": {
+        "A": "16",
+        "B": "17",
+        "C": "23",
+        "D": "35"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_37_Q66",
+      "page": 37,
+      "question_type": "MCQ",
+      "subject": "Permutations",
+      "question_text": "A flag has 4 horizontal stripes using colours red, green and yellow such that no two adjacent stripes have the same colour. How many ways are possible?",
+      "options": {
+        "A": "12",
+        "B": "18",
+        "C": "24",
+        "D": "36"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_37_Q67",
+      "page": 37,
+      "question_type": "MCQ",
+      "subject": "Mensuration",
+      "question_text": "A rectangular floor is 4 m × 2.2 m. Tiles of size 140 cm × 60 cm are laid. What is the maximum number of tiles?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_37_Q68",
+      "page": 37,
+      "question_type": "MCQ",
+      "subject": "Arrangements",
+      "question_text": "Five persons P, Q, R, S, T are assigned one task each. Neither P nor Q can be Task-1. Task-2 must be assigned to R or S. In how many ways can assignment be done?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "18",
+        "D": "24"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_41_Q74",
+      "page": 41,
+      "question_type": "MCQ",
+      "subject": "Modular Arithmetic",
+      "question_text": "What is the remainder when 2^192 is divided by 6?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_41_Q75",
+      "page": 41,
+      "question_type": "MCQ",
+      "subject": "Pattern Recognition",
+      "question_text": "Consider the sequence ABC_, ABC_, DABBCD_, ABCD. Which completes the sequence?",
+      "options": {
+        "A": "DACB",
+        "B": "CDAB",
+        "C": "DCCA",
+        "D": "DDCA"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_43_Q76",
+      "page": 43,
+      "question_type": "MCQ",
+      "subject": "Number Theory / Arithmetic",
+      "question_text": "AB and CD are 2-digit numbers. Multiplying AB with CD results in a 3-digit number DEF. Adding DEF to another 3-digit number GHI results in 975. Further A, B, C, D, E, F, G, H, I are distinct digits. If E = 0 and F = 8, then what is A + B + C equal to?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_43_Q80",
+      "page": 43,
+      "question_type": "MCQ",
+      "subject": "Alphabet Arrangement",
+      "question_text": "The letters of the word \"INCOMPREHENSIBILITIES\" are arranged alphabetically in reverse order. How many positions of the letters will remain unchanged?",
+      "options": {
+        "A": "None",
+        "B": "One",
+        "C": "Two",
+        "D": "Three"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q1",
+      "page": 3,
+      "question_type": "MCQ",
+      "subject": "International Institutions",
+      "question_text": "“Rapid Financing Instrument” and “Rapid Credit Facility” are related to the provisions of lending by which one of the following?",
+      "options": {
+        "A": "Asian Development Bank",
+        "B": "International Monetary Fund",
+        "C": "United Nations Environment Programme Finance Initiative",
+        "D": "World Bank"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q21",
+      "page": 13,
+      "question_type": "MCQ",
+      "subject": "Environment",
+      "question_text": "Among the following crops, which one is the most important anthropogenic source of both methane and nitrous oxide?",
+      "options": {
+        "A": "Cotton",
+        "B": "Rice",
+        "C": "Sugarcane",
+        "D": "Wheat"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q23",
+      "page": 13,
+      "question_type": "MCQ",
+      "subject": "Geography",
+      "question_text": "Which one of the following lakes of West Africa has become dry and turned into a desert?",
+      "options": {
+        "A": "Lake Victoria",
+        "B": "Lake Faguibine",
+        "C": "Lake Oguta",
+        "D": "Lake Volta"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q24",
+      "page": 13,
+      "question_type": "MCQ",
+      "subject": "Geography",
+      "question_text": "Gandikota canyon of South India was created by which one of the following rivers?",
+      "options": {
+        "A": "Cauvery",
+        "B": "Manjira",
+        "C": "Pennar",
+        "D": "Tungabhadra"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q26",
+      "page": 13,
+      "question_type": "MCQ",
+      "subject": "International Geography",
+      "question_text": "The term “Levant” often heard in the news roughly corresponds to which of the following regions?",
+      "options": {
+        "A": "Region along the eastern Mediterranean shores",
+        "B": "Region along North African shores stretching from Egypt to Morocco",
+        "C": "Region along Persian Gulf and Horn of Africa",
+        "D": "The entire coastal areas of Mediterranean Sea"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_A_Q29",
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Geography",
+      "question_text": "In the northern hemisphere, the longest day of the year normally occurs in the:",
+      "options": {
+        "A": "First half of the month of June",
+        "B": "Second half of the month of June",
+        "C": "First half of the month of July",
+        "D": "Second half of the month of July"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q30",
+      "page": 15,
+      "question_type": "MCQ",
+      "subject": "Environment",
+      "question_text": "Consider the following pairs:\nWetland/Lake — Location\n1. Hokera Wetland — Punjab\n2. Renuka Wetland — Himachal Pradesh\n3. Rudrasagar Lake — Tripura\n4. Sasthamkotta Lake — Tamil Nadu\nHow many pairs given above are correctly matched?",
+      "options": {
+        "A": "Only one pair",
+        "B": "Only two pairs",
+        "C": "Only three pairs",
+        "D": "All four pairs"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q34",
+      "page": 17,
+      "question_type": "MCQ",
+      "subject": "Defence",
+      "question_text": "Which one of the following statements best reflects the idea behind the “Fractional Orbital Bombardment System” often talked about in media?",
+      "options": {
+        "A": "A hypersonic missile is launched into space to destroy an asteroid",
+        "B": "A spacecraft lands on another planet after orbital motion",
+        "C": "A missile is put into a stable orbit and deorbits over a target on Earth",
+        "D": "A spacecraft moves along a comet and places a probe"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q35",
+      "page": 17,
+      "question_type": "MCQ",
+      "subject": "Science & Tech",
+      "question_text": "Which one of the following is the context in which the term “qubit” is mentioned?",
+      "options": {
+        "A": "Cloud Services",
+        "B": "Quantum Computing",
+        "C": "Visible Light Communication Technologies",
+        "D": "Wireless Communication Technologies"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q41",
+      "page": 21,
+      "question_type": "MCQ",
+      "subject": "Environment",
+      "question_text": "“Climate Action Tracker” which monitors the emission reduction pledges of different countries is a:",
+      "options": {
+        "A": "Database created by coalition of research organisations",
+        "B": "Wing of International Panel of Climate Change",
+        "C": "Committee under United Nations Framework Convention on Climate Change",
+        "D": "Agency promoted and financed by United Nations Environment Programme and World Bank"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_A_Q43",
+      "page": 21,
+      "question_type": "MCQ",
+      "subject": "Environment",
+      "question_text": "“If rainforests and tropical forests are the lungs of the Earth, then surely wetlands function as its kidneys.” Which one of the following functions of wetlands best reflects the above statement?",
+      "options": {
+        "A": "The water cycle in wetlands involves surface runoff, subsoil percolation and evaporation",
+        "B": "Algae form the nutrient base upon which fish, crustaceans, molluscs, birds, reptiles and mammals thrive",
+        "C": "Wetlands play a vital role in maintaining sedimentation balance and soil stabilization",
+        "D": "Aquatic plants absorb heavy metals and excess nutrients"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_A_Q47",
+      "page": 23,
+      "question_type": "MCQ",
+      "subject": "Environment",
+      "question_text": "Which of the following is not a bird?",
+      "options": {
+        "A": "Golden Mahseer",
+        "B": "Indian Nightjar",
+        "C": "Spoonbill",
+        "D": "White Ibis"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_A_Q49",
+      "page": 23,
+      "question_type": "MCQ",
+      "subject": "Environment",
+      "question_text": "“Biorock technology” is talked about in which one of the following situations?",
+      "options": {
+        "A": "Restoration of damaged coral reefs",
+        "B": "Development of building materials using plant residues",
+        "C": "Identification of areas for exploration/extraction of shale gas",
+        "D": "Providing salt licks for wild animals in forests/protected areas"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_A_Q50",
+      "page": 23,
+      "question_type": "MCQ",
+      "subject": "Environment",
+      "question_text": "The “Miyawaki method” is well known for the:",
+      "options": {
+        "A": "Promotion of commercial farming in arid and semi-arid areas",
+        "B": "Development of gardens using genetically modified flora",
+        "C": "Creation of mini forests in urban areas",
+        "D": "Harvesting wind energy on coastal areas and on sea surfaces"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q52",
+      "page": 25,
+      "question_type": "MCQ",
+      "subject": "Medieval History",
+      "question_text": "In medieval India, the term “Fanam” referred to:",
+      "options": {
+        "A": "Clothing",
+        "B": "Coins",
+        "C": "Ornaments",
+        "D": "Weapons"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q58",
+      "page": 27,
+      "question_type": "MCQ",
+      "subject": "Medieval History",
+      "question_text": "With reference to Indian history, who of the following were known as “Kulah-Daran”?",
+      "options": {
+        "A": "Arab merchants",
+        "B": "Qalandars",
+        "C": "Persian calligraphists",
+        "D": "Sayyids"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_A_Q62",
+      "page": 29,
+      "question_type": "MCQ",
+      "subject": "Geography",
+      "question_text": "Consider the following States:\n1. Andhra Pradesh\n2. Kerala\n3. Himachal Pradesh\n4. Tripura\nHow many of the above are generally known as tea-producing States?",
+      "options": {
+        "A": "Only one State",
+        "B": "Only two States",
+        "C": "Only three States",
+        "D": "All four States"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q8",
+      "page": 5,
+      "question_type": "MCQ",
+      "subject": "Indian Economy",
+      "question_text": "Which one of the following situations best reflects “Indirect Transfers” often talked about in media recently with reference to India?",
+      "options": {
+        "A": "An Indian company investing in a foreign enterprise and paying taxes to the foreign country",
+        "B": "A foreign company investing in India and paying taxes to its home country",
+        "C": "An Indian company purchases tangible assets abroad and remits profits to India",
+        "D": "A foreign company transfers shares deriving substantial value from assets located in India"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P3_Q4",
+      "page": 3,
+      "question_type": "MCQ",
+      "subject": "Mathematics",
+      "question_text": "Raj has ten pairs of red, nine pairs of white and eight pairs of black shoes in a box. If he randomly picks shoes one by one (without replacement) from the box to get a red pair of shoes to wear, what is the maximum number of attempts he has to make?",
+      "options": {
+        "A": "27",
+        "B": "36",
+        "C": "44",
+        "D": "45"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P3_Q5",
+      "page": 3,
+      "question_type": "MCQ",
+      "subject": "Mathematics",
+      "question_text": "In how many ways can a batsman score exactly 25 runs by scoring single runs, fours and sixes only, irrespective of the sequence of scoring shots?",
+      "options": {
+        "A": "18",
+        "B": "19",
+        "C": "20",
+        "D": "21"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P5_Q10",
+      "page": 5,
+      "question_type": "MCQ",
+      "subject": "Mathematics",
+      "question_text": "D is a 3-digit number such that the ratio of the number to the sum of its digits is least. What is the difference between the digit at the hundred’s place and the digit at the unit’s place of D?",
+      "options": {
+        "A": "0",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P5_Q7",
+      "page": 5,
+      "question_type": "MCQ",
+      "subject": "Mathematics",
+      "question_text": "What is the remainder when 85 × 87 × 89 × 91 × 95 × 96 is divided by 100?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P5_Q8",
+      "page": 5,
+      "question_type": "MCQ",
+      "subject": "Mathematics",
+      "question_text": "What is the unit digit in the expansion of (57242)^(9×7×5×3×1)?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P5_Q9",
+      "page": 5,
+      "question_type": "MCQ",
+      "subject": "Mathematics",
+      "question_text": "If ABC and DEF are both 3-digit numbers such that A, B, C, D, E and F are distinct non-zero digits such that ABC + DEF = 1111, then what is the value of A + B + C + D + E + F?",
+      "options": {
+        "A": "28",
+        "B": "29",
+        "C": "30",
+        "D": "31"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": 21,
+      "page": 13,
+      "question_type": "Reading Comprehension",
+      "subject": "Environment / Public Policy",
+      "question_text": "Which one of the following statements best reflects the most logical and rational implication conveyed by the passage?",
+      "options": {
+        "A": "Arbitrary curbs on vehicles to reduce pollution are difficult to implement.",
+        "B": "Knee-jerk reactions cannot solve the problem of pollution but an evidence-based approach will be more effective.",
+        "C": "A heavy penalty should be enforced on those driving without periodic pollution tests.",
+        "D": "In the absence of laws to deal with pollution, the administration tends to make arbitrary decisions."
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 22,
+      "page": 13,
+      "question_type": "Reading Comprehension",
+      "subject": "Economics / Corporate Governance",
+      "question_text": "Which of the following statements best reflects the logical inference from the passage given above?",
+      "options": {
+        "A": "It is an important agenda of the countries around the world to ensure access to good external financing.",
+        "B": "Good corporate governance improves the credibility of the firms.",
+        "C": "International capital markets ensure that firms maintain good corporate governance.",
+        "D": "Good corporate governance paves the way for robust supply chains."
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 23,
+      "page": 15,
+      "question_type": "Reading Comprehension",
+      "subject": "Environment / Ecology",
+      "question_text": "Which one of the following statements best reflects the most logical and rational inference that can be drawn from the passage?",
+      "options": {
+        "A": "The home range of elephants needs to be a vast area of rich biodiversity.",
+        "B": "Elephants are the keystone species and they benefit the biodiversity.",
+        "C": "Rich biodiversity cannot be maintained in forests without elephants.",
+        "D": "Elephants are capable of regenerating forests with species as per their requirement."
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 31,
+      "page": 17,
+      "question_type": "Reading Comprehension",
+      "subject": "Environment / Waste Management",
+      "question_text": "Based on the above passage, the following assumptions have been made:\n1. Collection, processing and segregation of municipal waste should be with government agencies.\n2. Resource recovery and recycling require technological inputs that can be best handled by private sector enterprises.\nWhich of the assumptions given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 32,
+      "page": 17,
+      "question_type": "Reading Comprehension",
+      "subject": "Environment / Energy",
+      "question_text": "Which one of the following statements best reflects the crux of the passage?",
+      "options": {
+        "A": "Generation of energy from municipal solid waste is inexpensive.",
+        "B": "Biomethanation is the most ideal way of generating energy from municipal solid waste.",
+        "C": "Segregation of municipal solid waste is the first step in ensuring the success of waste-to-energy plants.",
+        "D": "The biodegradable component of India’s municipal solid waste is not adequate to provide energy from waste efficiently."
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": 33,
+      "page": 19,
+      "question_type": "Reading Comprehension",
+      "subject": "Agriculture / Public Health",
+      "question_text": "Based on the above passage, the following assumptions have been made:\n1. Organic farming is inherently unsafe for both farmers and consumers.\n2. Farmers and consumers need to be educated about eco-friendly food.\nWhich of the assumptions given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 34,
+      "page": 19,
+      "question_type": "Reading Comprehension",
+      "subject": "Agriculture / Policy",
+      "question_text": "Which one of the following statements best reflects the most logical, rational and practical message conveyed by the author of the passage?",
+      "options": {
+        "A": "In India, organic farming should not be promoted as a substitute for conventional farming.",
+        "B": "There are no safe organic alternatives to chemical fertilizers.",
+        "C": "In India, farmers need to be guided and helped to make their organic farming sustainable.",
+        "D": "The aim of organic farming should not be to generate huge profits as there is still no global market for its products."
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": 35,
+      "page": 19,
+      "question_type": "Reading Comprehension",
+      "subject": "Food Security / Agriculture",
+      "question_text": "Based on the above passage, the following assumptions have been made:\n1. To implement the Sustainable Development Goals and to achieve zero-hunger goal, monoculture agriculture practices are inevitable even if they do not address malnutrition.\n2. Dependence on a few crops has negative consequences for human health and the ecosystem.\n3. Government policies regarding food planning need to incorporate nutritional security.\n4. For the present monoculture agriculture practices, farmers receive subsidies in various ways and government offers remunerative prices for grains and therefore they do not tend to consider crop diversity.\nWhich of the above assumptions are valid?",
+      "options": {
+        "A": "1, 2 and 4 only",
+        "B": "2 and 3 only",
+        "C": "3 and 4 only",
+        "D": "1, 2, 3 and 4"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_23_Q41",
+      "page": 23,
+      "question_type": "Reading Comprehension",
+      "subject": "Climate Change / Ecology",
+      "passage_text": "Scientists studied the vernal window — transition period from winter to the growing season. They found that warmer winters with less snow resulted in a longer lag time between spring events and a more protracted vernal window. This change in the spring timetable has ecological, social and economic consequences — for agriculture, fisheries and tourism. As the ice melts earlier, the birds don’t return, causing a delay or lengthening in springtime ecological events.",
+      "question_text": "With reference to the above passage, the following assumptions have been made:\n1. Global warming is causing spring to come early and for longer durations.\n2. Early spring and longer period of spring is not good for bird populations.\nWhich of the above assumptions is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_23_Q42",
+      "page": 23,
+      "question_type": "Reading Comprehension",
+      "subject": "Environment / Agriculture",
+      "passage_text": "A global analysis of nitrogen use efficiency shows that excessive fertilizer use increases pollution of waterways and air. Only 40% of nitrogen applied to cropland is used by crops, while the rest is lost to the environment, causing nitrous oxide emissions and eutrophication of water bodies.",
+      "question_text": "Which one of the following statements best reflects the most logical, rational and crucial message implied by the passage?",
+      "options": {
+        "A": "Enhanced efficiency of nitrogen use is imperative for both food production and environment",
+        "B": "Production of synthetic nitrogen fertilizers cannot be stopped",
+        "C": "Alternatives to nitrogen-intensive crops should be identified",
+        "D": "Conventional agriculture should be replaced with organic farming"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_25_Q43",
+      "page": 25,
+      "question_type": "Reading Comprehension",
+      "subject": "Climate Justice",
+      "passage_text": "Climate justice is regarded as a significant principle in environmental parlance. It includes not just mitigation but also adaptation, support for victims and compensation for loss and damage due to climate change.",
+      "question_text": "Which one of the following statements best reflects the most logical, rational and crucial message conveyed by the passage?",
+      "options": {
+        "A": "Climate justice should be ingrained in new climate agreements",
+        "B": "Environmental resources are unevenly distributed",
+        "C": "There is an impending issue of climate refugees",
+        "D": "Developed countries should bear more climate burden"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_27_Q51",
+      "page": 27,
+      "question_type": "Reading Comprehension",
+      "subject": "Food Security / Agroforestry",
+      "passage_text": "Sourcing food from non-agricultural lands like forests and wetlands allows rural communities to sustain themselves year-round. Forest foods provide resilience during crop failures and seasonal shortages.",
+      "question_text": "Which one of the following statements best reflects the most logical and rational message conveyed by the author?",
+      "options": {
+        "A": "Food yielding trees should replace other trees",
+        "B": "Food security cannot be ensured with conventional agriculture",
+        "C": "Wastelands should be converted to agroforestry",
+        "D": "Agroecosystems should be developed along with conventional agriculture"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_29_Q52",
+      "page": 29,
+      "question_type": "Reading Comprehension",
+      "subject": "Public Health / Environment",
+      "passage_text": "Pollution from antibiotic manufacturing plants contributes to drug-resistant bacteria. The environmental impact of untreated pharmaceutical waste is a major public health concern.",
+      "question_text": "Which one of the following statements best reflects the most logical and practical message conveyed by the passage?",
+      "options": {
+        "A": "Proper effluent treatment protocols must be implemented",
+        "B": "Environmental awareness should be promoted",
+        "C": "Drug resistance is inevitable",
+        "D": "Pharma units should be shifted to rural areas"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_29_Q53",
+      "page": 29,
+      "question_type": "Reading Comprehension",
+      "subject": "Education / Economy",
+      "passage_text": "Benefits of quality school education accrue only when students acquire foundational skills. Without strong primary education, higher education and skill development cannot succeed.",
+      "question_text": "Which one of the following statements best reflects the crux of the passage?",
+      "options": {
+        "A": "India must invest in universal quality education",
+        "B": "India cannot become a global power",
+        "C": "Focus should be on higher education skills",
+        "D": "Parents are unaware of education benefits"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_33_Q61",
+      "page": 33,
+      "question_type": "Reading Comprehension",
+      "subject": "Philosophy / Society",
+      "passage_text": "The paradox of choice is illustrated by the story of Buridan’s ass... Many people are overwhelmed with attractive life choices, yet find themselves unhappy and anxious.",
+      "question_text": "Which one of the following statements best reflects the most logical message implied by the passage?",
+      "options": {
+        "A": "Modern technology enfeebles society",
+        "B": "Modern life is full of uncertainties and difficult choices",
+        "C": "We lack courage to follow convictions",
+        "D": "Too many choices can be as difficult as too few"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_35_Q62",
+      "page": 35,
+      "question_type": "Reading Comprehension",
+      "subject": "Economy / Finance",
+      "passage_text": "Household finance in India is unique... hurdles include bureaucracy, lack of information and scepticism of institutions.",
+      "question_text": "Regarding the financialization of household savings, which statements best reflect the solutions implied by the passage?\n1. Flexible environment is needed.\n2. Households need customised solutions.\n3. Innovations in financial technology are required.",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_35_Q63",
+      "page": 35,
+      "question_type": "Reading Comprehension",
+      "subject": "Health / Public Policy",
+      "passage_text": "Pharmaceutical patents grant protection... governments need to balance innovation incentives with affordability.",
+      "question_text": "Which of the following assumptions are valid?",
+      "options": {
+        "A": "1 and 2",
+        "B": "1 and 4",
+        "C": "3 and 4",
+        "D": "2 and 3"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_37_Q64",
+      "page": 37,
+      "question_type": "Reading Comprehension",
+      "subject": "Digital Economy / Privacy",
+      "passage_text": "India should ensure growth of the digital economy while keeping personal data secure...",
+      "question_text": "Which of the above assumptions is/are valid?\n1. Privacy has economic value.\n2. There is a link between privacy and innovation.",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_39_Q71",
+      "page": 39,
+      "question_type": "Reading Comprehension",
+      "subject": "Economy / Employment",
+      "passage_text": "In India, unemployment rate is often misleading due to rising enrolment...",
+      "question_text": "Which statement best reflects what the author intends to say?",
+      "options": {
+        "A": "Education quality is poor",
+        "B": "Unemployment reflects rising education and aspirations",
+        "C": "Lack of industries causes unemployment",
+        "D": "Education should enable self-employment"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_41_Q72",
+      "page": 41,
+      "question_type": "Reading Comprehension",
+      "subject": "Science & Philosophy",
+      "passage_text": "Science by itself is not enough... politics becomes destructive when divorced from philosophy.",
+      "question_text": "Which statement best reflects the message conveyed?",
+      "options": {
+        "A": "Statesmen need scientific and philosophical training",
+        "B": "Governments should not be empirical",
+        "C": "Education should train citizens early",
+        "D": "Scientists must be philosophers"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_41_Q73",
+      "page": 41,
+      "question_type": "Reading Comprehension",
+      "subject": "Political Philosophy",
+      "passage_text": "The last end of the state is not to dominate men...",
+      "question_text": "Which term best expresses the ultimate goal of the state?",
+      "options": {
+        "A": "Personal safety",
+        "B": "Health of body and mind",
+        "C": "Communal harmony",
+        "D": "Liberty"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P3_Q1",
+      "page": 3,
+      "question_type": "Reading Comprehension",
+      "subject": "Environment / Water Governance",
+      "question_text": "Which one of the following statements best reflects the most rational, practical and immediate action required to ensure fair and equitable allocation of water to different stakeholders?",
+      "options": {
+        "A": "A national, pragmatic, legal and policy framework for water allocation should be made.",
+        "B": "All river systems of the country should be linked and huge aquifers created.",
+        "C": "Water channels between regions of water surplus and regions of water deficit should be created.",
+        "D": "To mitigate water crisis, water demand of sectors such as agriculture and industry should be reduced."
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P3_Q2",
+      "page": 3,
+      "question_type": "Reading Comprehension",
+      "subject": "Health / Nutrition / Economy",
+      "question_text": "Which one of the following statements best reflects what is implied by the passage?",
+      "options": {
+        "A": "Education system must be strengthened in rural areas.",
+        "B": "Large-scale and effective implementation of skill development programme is the need of the hour.",
+        "C": "For economic development, health and nutrition of only skilled workers needs special attention.",
+        "D": "For rapid economic growth as envisaged by us, attention should be paid to health and nutrition of the people."
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P3_Q3",
+      "page": 3,
+      "question_type": "Reading Comprehension",
+      "subject": "Climate Change / Agriculture",
+      "question_text": "Which one of the following statements best reflects the most logical and rational message conveyed by the author of the passage?",
+      "options": {
+        "A": "Adaptation to climate change and mitigation response are basically the responsibilities of the government.",
+        "B": "Climate change causes a change in government policies regarding land use patterns in the country.",
+        "C": "Risk perceptions of farmers are important for motivating them for taking adaptation decisions.",
+        "D": "Since mitigation is not possible, governments should come up with policies for quick response to climate change."
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P5_Q11",
+      "page": 5,
+      "question_type": "Reading Comprehension",
+      "subject": "Climate Change / Environment",
+      "question_text": "Which one of the following statements best reflects the crucial message conveyed by the author of the passage?",
+      "options": {
+        "A": "Businesses that cause emissions may need to close down or pay for pollution in future.",
+        "B": "The only solution is technological development related to the issues of climate change.",
+        "C": "Waiting to deal with carbon emissions until technology improves is not a wise strategy.",
+        "D": "Since future technological change is uncertain, new industries should be based on renewable energy sources."
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P5_Q12",
+      "page": 5,
+      "question_type": "Reading Comprehension",
+      "subject": "Environment / Health",
+      "question_text": "Which one of the following statements best implies the most rational assumption that can be made from the passage?",
+      "options": {
+        "A": "We are likely to spend more money on cure than prevention.",
+        "B": "It is the job of the government to solve our environmental and public health problems.",
+        "C": "Health can be protected even if environmental problems go on unattended.",
+        "D": "Loss of traditional lifestyle and the influence of western values led to some unhealthy ways of living."
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P5_Q13",
+      "page": 5,
+      "question_type": "Reading Comprehension",
+      "subject": "Nutrition / Food Systems",
+      "question_text": "Which one of the following statements best reflects the crux of the passage?",
+      "options": {
+        "A": "The scheme of Universal Basic Income should be implemented worldwide as a way of poverty alleviation.",
+        "B": "We must place food-based nutrition at the centre of our policy debate.",
+        "C": "Nutritional status of food should be improved by creating appropriate genetically modified crops.",
+        "D": "Using modern food processing technologies, we must fortify food items with required nutrient elements."
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 14,
+      "page": 11,
+      "question_type": "Statement Based",
+      "subject": "Mathematics (Parity)",
+      "question_text": "Three of the five positive integers p, q, r, s, t are even and two of them are odd (not necessarily in order). Consider the following:\n1. p + q + r − s − t is definitely even.\n2. 2p + q + 2r − 2s + t is definitely odd.\nWhich of the above statements is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": 15,
+      "page": 11,
+      "question_type": "Statement Based",
+      "subject": "Mathematics (Parity & Primes)",
+      "question_text": "Consider the following in respect of prime number p and composite number c:\n1. (p + c)/(p − c) can be even.\n2. 2p + c can be odd.\n3. pc can be odd.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": 20,
+      "page": 11,
+      "question_type": "Statement Based",
+      "subject": "Mathematics (Time & Work)",
+      "question_text": "A, B, C working independently can do a piece of work in 8, 16 and 12 days respectively. A alone works on Monday, B alone works on Tuesday, C alone works on Wednesday; A alone again works on Thursday and so on. Consider the following statements:\n1. The work will be finished on Thursday.\n2. The work will be finished in 10 days.\nWhich of the above statements is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_21_Q36",
+      "page": 21,
+      "question_type": "Statement Based",
+      "subject": "Probability / Combinatorics",
+      "question_text": "A box contains 14 black balls, 20 blue balls, 26 green balls, 28 yellow balls, 38 red balls and 54 white balls. Consider the following statements:\n1. The smallest number n such that any n balls drawn from the box randomly must contain one full group of at least one colour is 175.\n2. The smallest number m such that any m balls drawn from the box randomly must contain at least one ball of each colour is 167.\nWhich of the above statements is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_21_Q38",
+      "page": 21,
+      "question_type": "Statement Based",
+      "subject": "Logical Reasoning (Age)",
+      "question_text": "Consider the following statements:\n1. A is older than B.\n2. C and D are of the same age.\n3. E is the youngest.\n4. F is younger than D.\n5. F is older than A.\nHow many statements given above are required to determine the oldest person/persons?",
+      "options": {
+        "A": "Only two",
+        "B": "Only three",
+        "C": "Only four",
+        "D": "All five"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_21_Q39",
+      "page": 21,
+      "question_type": "Statement Based",
+      "subject": "Blood Relations",
+      "question_text": "There are 5 members A, B, C, D, E in a family. What is the relation of E to B?",
+      "options": {
+        "A": "Statement-1, Statement-2 and Statement-3 are sufficient",
+        "B": "Statement-1, Statement-3 and Statement-4 are sufficient",
+        "C": "All four statements together are sufficient",
+        "D": "All four statements are not sufficient"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_25_Q46",
+      "page": 25,
+      "question_type": "Statement Based",
+      "subject": "Number Theory",
+      "question_text": "Let pp, qq and rr be 2-digit numbers where p < q < r. If pp + qq + rr = tt0, where tt0 is a 3-digit number ending with zero, consider the following statements:\n1. The number of possible values of p is 5.\n2. The number of possible values of q is 6.\nWhich of the above statements is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_31_Q56",
+      "page": 31,
+      "question_type": "Statement Based",
+      "subject": "Algebra",
+      "question_text": "Is p greater than q?\nStatement-1: p × q is greater than zero.\nStatement-2: p² is greater than q².\nWhich one of the following is correct?",
+      "options": {
+        "A": "Only one statement alone is sufficient",
+        "B": "Either statement alone is sufficient",
+        "C": "Both statements together are sufficient",
+        "D": "Even both together are not sufficient"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_31_Q57",
+      "page": 31,
+      "question_type": "Statement Based",
+      "subject": "Integers",
+      "question_text": "Is (p + q − r) greater than (p − q + r)?\nStatement-1: (p − q) is positive.\nStatement-2: (p − r) is negative.\nWhich one of the following is correct?",
+      "options": {
+        "A": "Only one statement alone is sufficient",
+        "B": "Either statement alone is sufficient",
+        "C": "Both statements together are sufficient",
+        "D": "Even both together are not sufficient"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_31_Q58",
+      "page": 31,
+      "question_type": "Statement Based",
+      "subject": "Set Theory",
+      "question_text": "In a party, 75 persons took tea, 60 took coffee and 15 took both. No one taking milk takes tea. Each person takes at least one drink. How many persons attended the party?\nStatement-1: 50 persons took milk.\nStatement-2: Total persons attended is five times the number who took milk only.",
+      "options": {
+        "A": "Only one statement alone is sufficient",
+        "B": "Either statement alone is sufficient",
+        "C": "Both statements together are sufficient",
+        "D": "Even both together are not sufficient"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_33_Q59",
+      "page": 33,
+      "question_type": "Statement Based",
+      "subject": "Number Properties",
+      "question_text": "Consider a 3-digit number. What is the number?\nStatement-1: The sum of the digits is equal to the product of the digits.\nStatement-2: The number is divisible by the sum of its digits.",
+      "options": {
+        "A": "Only one statement alone is sufficient",
+        "B": "Either statement alone is sufficient",
+        "C": "Both statements together are sufficient",
+        "D": "Even both together are not sufficient"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_33_Q60",
+      "page": 33,
+      "question_type": "Statement Based",
+      "subject": "Ages",
+      "question_text": "For five children with ages a < b < c < d < e; successive ages differ by 2 years. What is the age of the youngest child?\nStatement-1: The eldest is 3 times the youngest.\nStatement-2: The average age is 8 years.",
+      "options": {
+        "A": "Only one statement alone is sufficient",
+        "B": "Either statement alone is sufficient",
+        "C": "Both statements together are sufficient",
+        "D": "Even both together are not sufficient"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_39_Q69",
+      "page": 39,
+      "question_type": "Statement Based",
+      "subject": "Number Theory",
+      "question_text": "Silver coins of 2, 5, 10, 25, 50 g are available. Consider:\n1. To buy 78 g, at least 7 coins are needed.\n2. To weigh 78 g, less than 7 coins can be used.",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_39_Q70",
+      "page": 39,
+      "question_type": "Statement Based",
+      "subject": "Symbols",
+      "question_text": "Given symbolic relations between A, B, P, Q, R, S, T. Which conclusion follows?",
+      "options": {
+        "A": "Only conclusion 1",
+        "B": "Only conclusion 2",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_43_Q77",
+      "page": 43,
+      "question_type": "Statement Based",
+      "subject": "Selection / Deduction",
+      "question_text": "Consider the following statements in respect of five candidates P, Q, R, S and T. Two statements are true and one statement is false.\nTrue Statement: One of P and Q was selected for the job.\nFalse Statement: At least one of R and S was selected for the job.\nTrue Statement: At most two of R, S and T were selected for the job.\nWhich of the following conclusions can be drawn?\n1. At least four were selected for the job.\n2. S was selected for the job.",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_43_Q78",
+      "page": 43,
+      "question_type": "Statement Based",
+      "subject": "Statements & Conclusions",
+      "question_text": "Let P, Q, R, S and T be five statements such that:\nI. If P is true, then both Q and S are true.\nII. If R and S are true, then T is false.\nWhich of the following can be concluded?\n1. If T is true, then at least one of P and R must be false.\n2. If Q is true, then P is true.",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_43_Q79",
+      "page": 43,
+      "question_type": "Statement Based",
+      "subject": "Geometry / Mensuration",
+      "question_text": "A cuboid of dimensions 7 cm × 5 cm × 3 cm is painted red, green and blue colour on each pair of opposite faces of dimensions 7 cm × 5 cm, 5 cm × 3 cm, 7 cm × 3 cm respectively. Then the cuboid is cut and separated into various cubes each of side length 1 cm. Which of the following statements is/are correct?\n1. There are exactly 15 small cubes with no paint on any face.\n2. There are exactly 6 small cubes which have exactly two faces, one painted with blue and the other with green.",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_A_Q10",
+      "page": 7,
+      "question_type": "Statement Based",
+      "subject": "Indian Economy",
+      "question_text": "With reference to the Indian economy, consider the following statements:\n1. A share of the household financial savings goes towards government borrowings.\n2. Dated securities issued at market-related rates in auctions form a large component of internal debt.\nWhich of the above statements is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q11",
+      "page": 7,
+      "question_type": "Statement Based",
+      "subject": "Polity",
+      "question_text": "Consider the following statements:\n1. Pursuant to the report of H.N. Sanyal Committee, the Contempt of Courts Act, 1971 was passed.\n2. The Constitution of India empowers the Supreme Court and the High Courts to punish for contempt of themselves.\n3. The Constitution of India defines Civil Contempt and Criminal Contempt.\n4. In India, the Parliament is vested with the powers to make laws on Contempt of Court.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1, 2 and 4",
+        "C": "3 and 4 only",
+        "D": "3 only"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q12",
+      "page": 7,
+      "question_type": "Statement Based",
+      "subject": "Polity",
+      "question_text": "With reference to India, consider the following statements:\n1. Government law officers and legal firms are recognised as advocates, but corporate lawyers and patent attorneys are excluded from recognition as advocates.\n2. Bar Councils have the power to lay down the rules relating to legal education and recognition of law colleges.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q13",
+      "page": 9,
+      "question_type": "Statement Based",
+      "subject": "Polity",
+      "question_text": "Consider the following statements:\n1. A Bill amending the Constitution requires a prior recommendation of the President of India.\n2. When a Constitution Amendment Bill is presented to the President of India, it is obligatory for the President to give assent.\n3. A Constitution Amendment Bill must be passed by both the Lok Sabha and the Rajya Sabha by a special majority and there is no provision for joint sitting.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q14",
+      "page": 9,
+      "question_type": "Statement Based",
+      "subject": "Polity",
+      "question_text": "Consider the following statements:\n1. The Constitution of India classifies the ministers into four ranks viz. Cabinet Minister, Minister of State with Independent Charge, Minister of State and Deputy Minister.\n2. The total number of ministers in the Union Government, including the Prime Minister, shall not exceed 15 percent of the total number of members in the Lok Sabha.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q15",
+      "page": 9,
+      "question_type": "Statement Based",
+      "subject": "Polity",
+      "question_text": "Which of the following is/are the exclusive power(s) of Lok Sabha?\n1. To ratify the declaration of Emergency\n2. To pass a motion of no-confidence against the Council of Ministers\n3. To impeach the President of India",
+      "options": {
+        "A": "1 and 2",
+        "B": "2 only",
+        "C": "1 and 3",
+        "D": "3 only"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q16",
+      "page": 9,
+      "question_type": "Statement Based",
+      "subject": "Polity",
+      "question_text": "With reference to anti-defection law in India, consider the following statements:\n1. The law specifies that a nominated legislator cannot join any political party within six months of being appointed to the House.\n2. The law does not provide any time-frame within which the presiding officer has to decide a defection case.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q17",
+      "page": 11,
+      "question_type": "Statement Based",
+      "subject": "Polity",
+      "question_text": "Consider the following statements:\n1. Attorney General of India and Solicitor General of India are the only officers of the Government who are allowed to participate in the meetings of the Parliament of India.\n2. According to the Constitution of India, the Attorney General of India submits his resignation when the Government which appointed him resigns.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_A_Q18",
+      "page": 11,
+      "question_type": "Statement Based",
+      "subject": "Polity",
+      "question_text": "With reference to the writs issued by the Courts in India, consider the following statements:\n1. Mandamus will not lie against a private organisation unless it is entrusted with a public duty.\n2. Mandamus will not lie against a Company even though it may be a Government Company.\n3. Any public minded person can be a petitioner to move the Court to obtain the writ of Quo Warranto.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q19",
+      "page": 11,
+      "question_type": "Statement Based",
+      "subject": "Social Sector",
+      "question_text": "With reference to Ayushman Bharat Digital Mission, consider the following statements:\n1. Private and public hospitals must adopt it.\n2. As it aims to achieve universal health coverage, every citizen of India should be part of it ultimately.\n3. It has seamless portability across the country.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q2",
+      "page": 3,
+      "question_type": "Statement Based",
+      "subject": "Indian Economy",
+      "question_text": "With reference to the Indian economy, consider the following statements:\n1. An increase in Nominal Effective Exchange Rate (NEER) indicates the appreciation of rupee.\n2. An increase in the Real Effective Exchange Rate (REER) indicates an improvement in trade competitiveness.\n3. An increasing trend in domestic inflation relative to inflation in other countries is likely to cause an increasing divergence between NEER and REER.\nWhich of the above statements are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q20",
+      "page": 11,
+      "question_type": "Statement Based",
+      "subject": "Polity",
+      "question_text": "With reference to Deputy Speaker of Lok Sabha, consider the following statements:\n1. As per the Rules of Procedure and Conduct of Business in Lok Sabha, the election of Deputy Speaker shall be held on such date as the Speaker may fix.\n2. There is a mandatory provision that the election of a candidate as Deputy Speaker of Lok Sabha shall be from either the principal opposition party or the ruling party.\n3. The Deputy Speaker has the same power as the Speaker when presiding over the sitting of the House and no appeal lies against his rulings.\n4. The well established parliamentary practice regarding the appointment of Deputy Speaker is that the motion is moved by the Speaker and duly seconded by the Prime Minister.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1 and 3 only",
+        "B": "1, 2 and 3",
+        "C": "3 and 4 only",
+        "D": "2 and 4 only"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_A_Q22",
+      "page": 13,
+      "question_type": "Statement Based",
+      "subject": "Agriculture",
+      "question_text": "“System of Rice Intensification” of cultivation, in which alternate wetting and drying of rice fields is practised, results in:\n1. Reduced seed requirement\n2. Reduced methane production\n3. Reduced electricity consumption\nSelect the correct answer using the code given below:",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_A_Q25",
+      "page": 13,
+      "question_type": "Statement Based",
+      "subject": "Geography",
+      "question_text": "Consider the following pairs:\nPeak — Mountains\n1. Namcha Barwa — Garhwal Himalaya\n2. Nanda Devi — Kumaon Himalaya\n3. Nokrek — Sikkim Himalaya\nWhich of the pairs given above is/are correctly matched?",
+      "options": {
+        "A": "1 and 2",
+        "B": "2 only",
+        "C": "1 and 3",
+        "D": "3 only"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q27",
+      "page": 13,
+      "question_type": "Statement Based",
+      "subject": "International Relations",
+      "question_text": "Consider the following countries:\n1. Azerbaijan\n2. Kyrgyzstan\n3. Tajikistan\n4. Turkmenistan\n5. Uzbekistan\nWhich of the above have borders with Afghanistan?",
+      "options": {
+        "A": "1, 2 and 5 only",
+        "B": "1, 2, 3 and 4 only",
+        "C": "3, 4 and 5 only",
+        "D": "1, 2, 3, 4 and 5"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q28",
+      "page": 15,
+      "question_type": "Statement Based",
+      "subject": "Geography",
+      "question_text": "With reference to India, consider the following statements:\n1. Monazite is a source of rare earths.\n2. Monazite contains thorium.\n3. Monazite occurs naturally in the entire Indian coastal sands in India.\n4. In India, Government bodies only can process or export monazite.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1, 2 and 3 only",
+        "B": "1, 2 and 4 only",
+        "C": "3 and 4 only",
+        "D": "1, 2, 3 and 4"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q3",
+      "page": 3,
+      "question_type": "Statement Based",
+      "subject": "Indian Economy",
+      "question_text": "With reference to the Indian economy, consider the following statements:\n1. If the inflation is too high, Reserve Bank of India (RBI) is likely to buy government securities.\n2. If the rupee is rapidly depreciating, RBI is likely to sell dollars in the market.\n3. If interest rates in the USA or European Union were to fall, that is likely to induce RBI to buy dollars.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q31",
+      "page": 15,
+      "question_type": "Statement Based",
+      "subject": "Governance",
+      "question_text": "Consider the following:\n1. Aarogya Setu\n2. CoWIN\n3. DigiLocker\n4. DIKSHA\nWhich of the above are built on top of open-source digital platforms?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2, 3 and 4 only",
+        "C": "1, 3 and 4 only",
+        "D": "1, 2, 3 and 4"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q32",
+      "page": 15,
+      "question_type": "Statement Based",
+      "subject": "Science & Tech",
+      "question_text": "With reference to Web 3.0, consider the following statements:\n1. Web 3.0 technology enables people to control their own data.\n2. In Web 3.0 world, there can be blockchain based social networks.\n3. Web 3.0 is operated by users collectively rather than a corporation.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_A_Q33",
+      "page": 17,
+      "question_type": "Statement Based",
+      "subject": "Science & Tech",
+      "question_text": "With reference to “Software as a Service (SaaS)”, consider the following statements:\n1. SaaS buyers can customise the user interface and can change data fields.\n2. SaaS users can access their data through their mobile devices.\n3. Outlook, Hotmail and Yahoo! Mail are forms of SaaS.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q36",
+      "page": 17,
+      "question_type": "Statement Based",
+      "subject": "Science & Tech",
+      "question_text": "Consider the following communication technologies:\n1. Closed-circuit Television\n2. Radio Frequency Identification\n3. Wireless Local Area Network\nWhich of the above are considered Short-Range devices/technologies?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q37",
+      "page": 17,
+      "question_type": "Statement Based",
+      "subject": "Biology",
+      "question_text": "Consider the following statements:\n1. Biofilms can form on medical implants within human tissues.\n2. Biofilms can form on food and food processing surfaces.\n3. Biofilms can exhibit antibiotic resistance.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_A_Q38",
+      "page": 19,
+      "question_type": "Statement Based",
+      "subject": "Biology",
+      "question_text": "Consider the following statements in respect of probiotics:\n1. Probiotics are made of both bacteria and yeast.\n2. The organisms in probiotics are found in foods we ingest but they do not naturally occur in our gut.\n3. Probiotics help in the digestion of milk sugars.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "1 and 3",
+        "D": "2 and 3"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q39",
+      "page": 19,
+      "question_type": "Statement Based",
+      "subject": "Science & Tech",
+      "question_text": "In the context of vaccines manufactured to prevent COVID-19 pandemic, consider the following statements:\n1. The Serum Institute of India produced COVID-19 vaccine named Covishield using mRNA platform.\n2. Sputnik V vaccine is manufactured using vector based platform.\n3. COVAXIN is an inactivated pathogen based vaccine.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q4",
+      "page": 3,
+      "question_type": "Statement Based",
+      "subject": "International Relations",
+      "question_text": "With reference to the “G20 Common Framework”, consider the following statements:\n1. It is an initiative endorsed by the G20 together with the Paris Club.\n2. It is an initiative to support Low Income Countries with unsustainable debt.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q40",
+      "page": 19,
+      "question_type": "Statement Based",
+      "subject": "Space Science",
+      "question_text": "If a major solar storm (solar flare) reaches the Earth, which of the following are the possible effects on the Earth?\n1. GPS and navigation systems could fail.\n2. Tsunamis could occur at equatorial regions.\n3. Power grids could be damaged.\n4. Intense auroras could occur over much of the Earth.\n5. Forest fires could take place over much of the planet.\n6. Orbits of the satellites could be disturbed.\n7. Shortwave radio communication of the aircraft flying over polar regions could be interrupted.",
+      "options": {
+        "A": "1, 2, 4 and 5 only",
+        "B": "2, 3, 5, 6 and 7 only",
+        "C": "1, 3, 4, 6 and 7 only",
+        "D": "1, 2, 3, 4, 5, 6 and 7"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q42",
+      "page": 21,
+      "question_type": "Statement Based",
+      "subject": "Environment",
+      "question_text": "Consider the following statements:\n1. “The Climate Group” is an international non-profit organization that drives climate action by building large networks and runs them.\n2. The International Energy Agency in partnership with the Climate Group launched a global initiative “EP100”.\n3. EP100 brings together leading companies committed to driving innovation in energy efficiency and increasing competitiveness while delivering on emission reduction goals.\n4. Some Indian companies are members of EP100.\n5. The International Energy Agency is the Secretariat to the “Under2 Coalition”.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1, 2, 4 and 5",
+        "B": "1, 3 and 4 only",
+        "C": "2, 3 and 5 only",
+        "D": "1, 2, 3, 4 and 5"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q44",
+      "page": 21,
+      "question_type": "Statement Based",
+      "subject": "Environment",
+      "question_text": "In the context of WHO Air Quality Guidelines, consider the following statements:\n1. The 24-hour mean of PM2.5 should not exceed 15 µg/m³ and annual mean should not exceed 5 µg/m³.\n2. In a year, the highest levels of ozone pollution occur during the periods of inclement weather.\n3. PM10 can penetrate the lung barrier and enter the bloodstream.\n4. Excessive ozone in the air can trigger asthma.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1, 3 and 4",
+        "B": "1 and 4 only",
+        "C": "2, 3 and 4",
+        "D": "1 and 2 only"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q45",
+      "page": 23,
+      "question_type": "Statement Based",
+      "subject": "Environment",
+      "question_text": "With reference to “Gucchi” sometimes mentioned in the news, consider the following statements:\n1. It is a fungus.\n2. It grows in some Himalayan forest areas.\n3. It is commercially cultivated in the Himalayan foothills of north-eastern India.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "3 only",
+        "C": "1 and 2",
+        "D": "2 and 3"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q46",
+      "page": 23,
+      "question_type": "Statement Based",
+      "subject": "Science & Tech",
+      "question_text": "With reference to polyethylene terephthalate, the use of which is so widespread in our daily lives, consider the following statements:\n1. Its fibres can be blended with wool and cotton fibres to reinforce their properties.\n2. Containers made of it can be used to store any alcoholic beverage.\n3. Bottles made of it can be recycled into other products.\n4. Articles made of it can be easily disposed of by incineration without causing greenhouse gas emissions.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1 and 3",
+        "B": "2 and 4",
+        "C": "1 and 4",
+        "D": "2 and 3"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_A_Q48",
+      "page": 23,
+      "question_type": "Statement Based",
+      "subject": "Biology",
+      "question_text": "Which of the following are nitrogen-fixing plants?\n1. Alfalfa\n2. Amaranth\n3. Chickpea\n4. Clover\n5. Purslane (Kulfa)\n6. Spinach",
+      "options": {
+        "A": "1, 3 and 4 only",
+        "B": "1, 3, 5 and 6 only",
+        "C": "2, 4, 5 and 6 only",
+        "D": "1, 2, 4, 5 and 6"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_A_Q5",
+      "page": 5,
+      "question_type": "Statement Based",
+      "subject": "Indian Economy",
+      "question_text": "With reference to the Indian economy, what are the advantages of ‘Inflation-Indexed Bonds (IIBs)’?\n1. Government can reduce the coupon rates on its borrowing by way of IIBs.\n2. IIBs provide protection to the investors from uncertainty regarding inflation.\n3. The interest received as well as capital gains on IIBs are not taxable.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_A_Q51",
+      "page": 25,
+      "question_type": "Statement Based",
+      "subject": "Modern History",
+      "question_text": "In the Government of India Act 1919, the functions of Provincial Government were divided into “Reserved” and “Transferred” subjects. Which of the following were treated as “Reserved” subjects?\n1. Administration of Justice\n2. Local Self-Government\n3. Land Revenue\n4. Police",
+      "options": {
+        "A": "1, 2 and 3",
+        "B": "2, 3 and 4",
+        "C": "1, 3 and 4",
+        "D": "1, 2 and 4"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q53",
+      "page": 25,
+      "question_type": "Statement Based",
+      "subject": "Modern History",
+      "question_text": "Consider the following freedom fighters:\n1. Barindra Kumar Ghosh\n2. Jogesh Chandra Chatterjee\n3. Rash Behari Bose\nWho of the above was/were actively associated with the Ghadar Party?",
+      "options": {
+        "A": "1 and 2",
+        "B": "2 only",
+        "C": "1 and 3",
+        "D": "3 only"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_A_Q54",
+      "page": 25,
+      "question_type": "Statement Based",
+      "subject": "Modern History",
+      "question_text": "With reference to the proposals of Cripps Mission, consider the following statements:\n1. The Constituent Assembly would have members nominated by the Provincial Assemblies as well as the Princely States.\n2. Any Province, which is not prepared to accept the new Constitution would have the right to sign a separate agreement with Britain regarding its future status.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q55",
+      "page": 25,
+      "question_type": "Statement Based",
+      "subject": "Ancient History",
+      "question_text": "With reference to Indian history, consider the following texts:\n1. Nettipakarana\n2. Parishishtaparvan\n3. Avadanashataka\n4. Trishashtilakshana Mahapurana\nWhich of the above are Jaina texts?",
+      "options": {
+        "A": "1, 2 and 3",
+        "B": "2 and 4 only",
+        "C": "1, 3 and 4",
+        "D": "2, 3 and 4"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q56",
+      "page": 27,
+      "question_type": "Statement Based",
+      "subject": "Ancient History",
+      "question_text": "With reference to Indian history, consider the following pairs:\nHistorical person — Known as\n1. Aryadeva — Jaina scholar\n2. Dignaga — Buddhist scholar\n3. Nathamuni — Vaishnava scholar\nHow many pairs given above are correctly matched?",
+      "options": {
+        "A": "None of the pairs",
+        "B": "Only one pair",
+        "C": "Only two pairs",
+        "D": "All three pairs"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q57",
+      "page": 27,
+      "question_type": "Statement Based",
+      "subject": "Medieval History",
+      "question_text": "With reference to Indian history, consider the following statements:\n1. The first Mongol invasion of India happened during the reign of Jalal-ud-din Khalji.\n2. During the reign of Ala-ud-din Khalji, one Mongol assault marched up to Delhi and besieged the city.\n3. Muhammad-bin-Tughlaq temporarily lost portions of north-west of his kingdom to Mongols.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2",
+        "B": "2 only",
+        "C": "1 and 3",
+        "D": "3 only"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q59",
+      "page": 27,
+      "question_type": "Statement Based",
+      "subject": "Modern History",
+      "question_text": "With reference to Indian history, consider the following statements:\n1. The Dutch established their factories/warehouses on the east coast on lands granted to them by Gajapati rulers.\n2. Alfonso de Albuquerque captured Goa from the Bijapur Sultanate.\n3. The English East India Company established a factory at Madras on a plot of land leased from a representative of the Vijayanagara empire.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q6",
+      "page": 5,
+      "question_type": "Statement Based",
+      "subject": "Indian Economy",
+      "question_text": "With reference to foreign-owned e-commerce firms operating in India, which of the following statements is/are correct?\n1. They can sell their own goods in addition to offering their platforms as marketplaces.\n2. The degree to which they can own big sellers on their platforms is limited.",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q60",
+      "page": 27,
+      "question_type": "Statement Based",
+      "subject": "Ancient History",
+      "question_text": "According to Kautilya’s Arthashastra, which of the following are correct?\n1. A person could be a slave as a result of a judicial punishment.\n2. If a female slave bore her master a son, she was legally free.\n3. If a son born to a female slave was fathered by her master, the son was entitled to the legal status of the master’s son.",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D"
+    },
+    {
+      "question_id": "IMG_A_Q61",
+      "page": 29,
+      "question_type": "Statement Based",
+      "subject": "Economy",
+      "question_text": "Consider the following statements:\n1. Tight monetary policy of US Federal Reserve could lead to capital flight.\n2. Capital flight may increase the interest cost of firms with existing External Commercial Borrowings (ECBs).\n3. Devaluation of domestic currency decreases the currency risk associated with ECBs.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_A_Q63",
+      "page": 29,
+      "question_type": "Statement Based",
+      "subject": "Economy",
+      "question_text": "Consider the following statements:\n1. In India, credit rating agencies are regulated by Reserve Bank of India.\n2. The rating agency popularly known as ICRA is a public limited company.\n3. Brickwork Ratings is an Indian credit rating agency.\nWhich of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q64",
+      "page": 29,
+      "question_type": "Statement Based",
+      "subject": "Economy",
+      "question_text": "With reference to the Banks Board Bureau (BBB), which of the following statements are correct?\n1. The Governor of RBI is the Chairman of BBB.\n2. BBB recommends for the selection of heads for Public Sector Banks.\n3. BBB helps the Public Sector Banks in developing strategies and capital raising plans.",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B"
+    },
+    {
+      "question_id": "IMG_A_Q65",
+      "page": 29,
+      "question_type": "Statement Based",
+      "subject": "Economy",
+      "question_text": "With reference to Convertible Bonds, consider the following statements:\n1. As there is an option to exchange the bond for equity, Convertible Bonds pay a lower rate of interest.\n2. The option to convert to equity affords the bondholder a degree of indexation to rising consumer prices.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C"
+    },
+    {
+      "question_id": "IMG_A_Q7",
+      "page": 5,
+      "question_type": "Statement Based",
+      "subject": "Economics",
+      "question_text": "Which of the following activities constitute real sector in the economy?\n1. Farmers harvesting their crops\n2. Textile mills converting raw cotton into fabrics\n3. A commercial bank lending money to a trading company\n4. A corporate body issuing Rupee Denominated Bonds overseas",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2, 3 and 4 only",
+        "C": "1, 3 and 4 only",
+        "D": "1, 2, 3 and 4"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_A_Q9",
+      "page": 7,
+      "question_type": "Statement Based",
+      "subject": "Public Finance",
+      "question_text": "With reference to the expenditure made by an organisation or a company, which of the following statements is/are correct?\n1. Acquiring new technology is capital expenditure.\n2. Debt financing is considered capital expenditure, while equity financing is considered revenue expenditure.",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A"
+    },
+    {
+      "question_id": "IMG_GS2_2023_P3_Q6",
+      "page": 3,
+      "question_type": "Statement Based",
+      "subject": "Logical Reasoning",
+      "question_text": "There are four letters and four envelopes and exactly one letter is to be put in exactly one envelope with the correct address. If the letters are randomly inserted into the envelopes, then consider the following statements:\n1. It is possible that exactly one letter goes into an incorrect envelope.\n2. There are only six ways in which only two letters can go into the correct envelopes.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "D"
+    }
+  ]
+}
