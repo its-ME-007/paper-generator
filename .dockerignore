@@ -1,0 +1,11 @@
+__pycache__
+.venv
+.env
+.git
+.gitignore
+Dockerfile
+README.md
+generated_papers
+submissions
+answer_keys
+upsc papers
