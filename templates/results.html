@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +14,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #f0f0f0;
             min-height: 100vh;
             padding: 20px;
         }
@@ -34,7 +35,7 @@
 
         .nav-btn {
             padding: 10px 20px;
-            background: #667eea;
+            background: #4CAF50;
             color: white;
             text-decoration: none;
             border-radius: 5px;
@@ -43,7 +44,7 @@
         }
 
         .nav-btn:hover {
-            background: #5568d3;
+            background: #45a049;
         }
 
         .container {
@@ -69,22 +70,25 @@
         }
 
         .stat-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            background: white;
+            color: #333;
             padding: 25px;
             border-radius: 15px;
             text-align: center;
+            border: 2px solid #4CAF50;
         }
 
         .stat-value {
             font-size: 2.5em;
             font-weight: 700;
             margin: 10px 0;
+            color: #4CAF50;
         }
 
         .stat-label {
             font-size: 1.1em;
-            opacity: 0.9;
+            opacity: 0.8;
+            color: #666;
         }
 
         .feedback-section {
@@ -103,7 +107,7 @@
             background: white;
             padding: 20px;
             border-radius: 10px;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #4CAF50;
             line-height: 1.8;
             white-space: pre-wrap;
         }
@@ -115,7 +119,7 @@
         }
 
         .results-table th {
-            background: #667eea;
+            background: #4CAF50;
             color: white;
             padding: 15px;
             text-align: left;
@@ -170,7 +174,7 @@
 
         .print-btn {
             padding: 12px 30px;
-            background: #667eea;
+            background: #4CAF50;
             color: white;
             border: none;
             border-radius: 8px;
@@ -181,16 +185,19 @@
         }
 
         .print-btn:hover {
-            background: #5568d3;
+            background: #45a049;
         }
 
         @media print {
-            .nav-bar, .print-btn {
+
+            .nav-bar,
+            .print-btn {
                 display: none;
             }
         }
     </style>
 </head>
+
 <body>
     <div class="nav-bar">
         <a href="/" class="nav-btn">📝 Generate Paper</a>
@@ -259,11 +266,11 @@
                     <td><strong>{{ result.correct_answer }}</strong></td>
                     <td>
                         {% if result.status == 'correct' %}
-                            <span class="badge badge-correct">✓ Correct</span>
+                        <span class="badge badge-correct">✓ Correct</span>
                         {% elif result.status == 'incorrect' %}
-                            <span class="badge badge-incorrect">✗ Incorrect</span>
+                        <span class="badge badge-incorrect">✗ Incorrect</span>
                         {% else %}
-                            <span class="badge badge-unanswered">- Unanswered</span>
+                        <span class="badge badge-unanswered">- Unanswered</span>
                         {% endif %}
                     </td>
                 </tr>
@@ -274,20 +281,22 @@
 
     <script>
         function downloadCSV() {
-            const results = {{ submission.results | tojson }};
-            let csv = 'Question Number,Your Answer,Correct Answer,Status\n';
-            
-            results.forEach(r => {
-                csv += `${r.question_number},${r.student_answer},${r.correct_answer},${r.status}\n`;
-            });
-            
-            const blob = new Blob([csv], { type: 'text/csv' });
-            const url = window.URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'results_{{ submission.submission_id }}.csv';
-            a.click();
+            const results = {{ submission.results | tojson
+        }};
+        let csv = 'Question Number,Your Answer,Correct Answer,Status\n';
+
+        results.forEach(r => {
+            csv += `${r.question_number},${r.student_answer},${r.correct_answer},${r.status}\n`;
+        });
+
+        const blob = new Blob([csv], { type: 'text/csv' });
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'results_{{ submission.submission_id }}.csv';
+        a.click();
         }
     </script>
 </body>
+
 </html>

@@ -24,7 +24,7 @@ def generate_braille_pdf(questions, paper_id, clean_text_fn):
     """
     # Check Braille system status
     status = get_braille_status()
-    liblouis_available = status['liblouis_available']
+    use_braille = status['liblouis_available']
     
     # Initialize PDF
     pdf = FPDF()
@@ -35,11 +35,8 @@ def generate_braille_pdf(questions, paper_id, clean_text_fn):
     font_name = _setup_font(pdf)
     use_unicode = (font_name == 'DejaVu')
     
-    # We can use Braille if we have Unicode support (fallback map works without liblouis)
-    use_braille = use_unicode
-    
     # Render header
-    _render_header(pdf, paper_id, font_name, use_braille, use_unicode, liblouis_available, clean_text_fn)
+    _render_header(pdf, paper_id, font_name, use_braille, use_unicode, clean_text_fn)
     
     # Render questions
     _render_questions(pdf, questions, font_name, use_braille, use_unicode, clean_text_fn)
@@ -60,17 +57,8 @@ def _setup_font(pdf):
         str: Font name ('DejaVu' or 'Courier')
     """
     try:
-        # Check both root and ttf subdirectory
-        font_paths = ['DejaVuSans.ttf', 'ttf/DejaVuSans.ttf', 'ttf\\DejaVuSans.ttf']
-        font_file = None
-        
-        for path in font_paths:
-            if os.path.exists(path):
-                font_file = path
-                break
-        
-        if font_file:
-            pdf.add_font('DejaVu', '', font_file, uni=True)
+        if os.path.exists('DejaVuSans.ttf'):
+            pdf.add_font('DejaVu', '', 'DejaVuSans.ttf', uni=True)
             pdf.set_font('DejaVu', size=14)
             return 'DejaVu'
         else:
@@ -80,7 +68,7 @@ def _setup_font(pdf):
         pdf.set_font("Courier", size=14)
         return 'Courier'
 
-def _render_header(pdf, paper_id, font_name, use_braille, use_unicode, liblouis_available, clean_text_fn):
+def _render_header(pdf, paper_id, font_name, use_braille, use_unicode, clean_text_fn):
     """Render PDF header with metadata."""
     pdf.set_font(font_name, size=16)
     header_text = "UPSC Practice Question Paper - Braille Version"
@@ -106,13 +94,9 @@ def _render_header(pdf, paper_id, font_name, use_braille, use_unicode, liblouis_
     _render_text_line(pdf, date_text, font_name, use_braille, use_unicode, align='C')
     
     # Status note
-    if not use_unicode:
+    if not use_braille or not use_unicode:
         pdf.set_font(font_name, size=8)
-        note = "(Note: Unicode font unavailable - Braille conversion disabled)"
-        pdf.cell(0, 5, note, ln=True, align='C')
-    elif not liblouis_available:
-        pdf.set_font(font_name, size=8)
-        note = "(Using fallback Braille map - Install liblouis for professional Grade 2 Braille)"
+        note = "(Note: Braille conversion unavailable - showing regular text)"
         pdf.cell(0, 5, note, ln=True, align='C')
     
     pdf.ln(10)

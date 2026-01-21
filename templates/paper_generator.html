@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +14,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #f0f0f0;
             min-height: 100vh;
             padding: 20px;
             display: flex;
@@ -37,7 +38,7 @@
 
         .nav-btn {
             padding: 10px 20px;
-            background: #667eea;
+            background: #4CAF50;
             color: white;
             text-decoration: none;
             border-radius: 5px;
@@ -46,11 +47,11 @@
         }
 
         .nav-btn:hover {
-            background: #5568d3;
+            background: #45a049;
         }
 
         .nav-btn.active {
-            background: #764ba2;
+            background: #388E3C;
         }
 
         .container {
@@ -79,7 +80,7 @@
 
         .info-box {
             background: #f0f4ff;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #4CAF50;
             padding: 15px;
             margin-bottom: 30px;
             border-radius: 5px;
@@ -109,21 +110,22 @@
         }
 
         .preset-btn {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border: none;
+            background: white;
+            border: 2px solid #4CAF50;
+            color: #333;
             padding: 15px 20px;
             border-radius: 10px;
             cursor: pointer;
             font-size: 1em;
             font-weight: 600;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
         }
 
         .preset-btn:hover {
+            background: #4CAF50;
+            color: white;
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
         }
 
         .preset-btn:active {
@@ -166,7 +168,7 @@
 
         input[type="number"]:focus {
             outline: none;
-            border-color: #667eea;
+            border-color: #4CAF50;
         }
 
         .total-display {
@@ -196,7 +198,7 @@
 
         .generate-btn {
             width: 100%;
-            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            background: #4CAF50;
             color: white;
             border: none;
             padding: 18px;
@@ -205,12 +207,11 @@
             font-weight: 700;
             cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
         }
 
         .generate-btn:hover:not(:disabled) {
+            background: #45a049;
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
         }
 
         .generate-btn:disabled {
@@ -242,7 +243,7 @@
             display: inline-block;
             margin-top: 10px;
             padding: 10px 20px;
-            background: #667eea;
+            background: #4CAF50;
             color: white;
             text-decoration: none;
             border-radius: 5px;
@@ -250,7 +251,7 @@
         }
 
         .download-btn:hover {
-            background: #5568d3;
+            background: #45a049;
         }
 
         .loading {
@@ -261,7 +262,7 @@
 
         .spinner {
             border: 4px solid #f3f3f3;
-            border-top: 4px solid #667eea;
+            border-top: 4px solid #4CAF50;
             border-radius: 50%;
             width: 40px;
             height: 40px;
@@ -270,11 +271,17 @@
         }
 
         @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
         }
     </style>
 </head>
+
 <body>
     <div class="nav-bar">
         <a href="/" class="nav-btn active">📝 Generate Paper</a>
@@ -328,14 +335,16 @@
                         Statement-Based Questions<br>
                         <span>Questions with multiple statements</span>
                     </label>
-                    <input type="number" id="statement" min="0" max="{{ counts.statement }}" value="30" onchange="updateTotal()">
+                    <input type="number" id="statement" min="0" max="{{ counts.statement }}" value="30"
+                        onchange="updateTotal()">
                 </div>
                 <div class="input-row">
                     <label class="input-label">
                         Passage-Based Questions<br>
                         <span>Comprehension-based questions</span>
                     </label>
-                    <input type="number" id="passage" min="0" max="{{ counts.passage }}" value="20" onchange="updateTotal()">
+                    <input type="number" id="passage" min="0" max="{{ counts.passage }}" value="20"
+                        onchange="updateTotal()">
                 </div>
             </div>
 
@@ -376,12 +385,12 @@
             const total = mcq + statement + passage;
 
             document.getElementById('totalQuestions').textContent = total;
-            
+
             const totalDisplay = document.getElementById('totalDisplay');
             const generateBtn = document.getElementById('generateBtn');
-            
+
             totalDisplay.classList.remove('valid', 'invalid');
-            
+
             if (total === 80) {
                 totalDisplay.classList.add('valid');
                 generateBtn.disabled = false;
@@ -433,15 +442,6 @@
                             <select id="languageSelect" style="padding: 8px; margin: 10px 5px; border-radius: 5px;">
                                 <option value="">-- Select Language --</option>
                                 <option value="hindi">Hindi (हिंदी)</option>
-                                <option value="tamil">Tamil (தமிழ்)</option>
-                                <option value="telugu">Telugu (తెలుగు)</option>
-                                <option value="bengali">Bengali (বাংলা)</option>
-                                <option value="marathi">Marathi (मराठी)</option>
-                                <option value="gujarati">Gujarati (ગુજરાતી)</option>
-                                <option value="kannada">Kannada (ಕನ್ನಡ)</option>
-                                <option value="malayalam">Malayalam (മലയാളം)</option>
-                                <option value="punjabi">Punjabi (ਪੰਜਾਬੀ)</option>
-                                <option value="urdu">Urdu (اردو)</option>
                             </select>
                             <button onclick="translatePaper('${data.paper_id}')" class="download-btn" style="margin: 0; padding: 8px 20px;">
                                 🔄 Translate
@@ -501,4 +501,5 @@
         updateTotal();
     </script>
 </body>
+
 </html>

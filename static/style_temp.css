@@ -1,0 +1,296 @@
+body {
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+h1 {
+    background-color: #4CAF50;
+    color:black;
+    padding: 10px 0;
+    text-align: left;
+    margin: 0;
+    font-size:30px;
+}
+
+.container {
+    max-width: 1700px;
+    margin: 30px auto;
+    transform: translate(-10%,5%);
+    padding: 20px;
+    color:black;
+    font-size:24px;
+
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 10px;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    width: 0%;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+.question {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.options input {
+    margin-right: 10px;
+}
+
+.options label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.question-title{
+    font-style: italic;
+}
+/* Sidebar Styles */
+        .sidebar {
+            width: 250px;
+            background-color: #ffffff;
+            height: 100vh;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .heading {
+            font-family: 'ABeeZee', sans-serif;
+            display: flex;
+            align-items: center;
+            font-size: 46px;
+            margin-bottom: 20px;
+            color: #C72A0B;
+            transform: translate(-5%,20%);
+        }
+
+        .heading2 {
+            font-family: 'ABeeZee', sans-serif;
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #333;
+            transform: translate(75%,-70%);
+        }
+
+        .sidebar img {
+            margin-right: 10px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .sidebar button {
+            font-family: 'Manrope', sans-serif;
+            width: 150%;
+            padding: 10px;
+            margin: 5px;
+            margin-left: 0px;
+            font-size: 16px;
+            background-color: transparent; /* Transparent background */
+            color: #aeaeae;
+            border: none;
+            border-radius: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: left;
+            transition: background-color 0.3s ease;
+            display: flex;
+            gap: 10px;
+            justify-content: flex-start;
+            transform: translate(-15%, -450%);
+        }
+
+        .sidebar button img {
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+        }
+
+        .sidebar button:hover {
+            background-color: rgb(168, 168, 168);
+            color: #000000;
+        }
+
+        .sidebar button.selected {
+            background-color: #FCFBF9;
+            color: #000000;
+            border: 2px solid #E0E0E0;
+            transform: translate(-15%,-420%);
+        }
+
+        .sidebar .nav-buttons {
+            margin-top: auto;
+            margin-bottom: 20px;
+        }
+
+        .sidebar #create-notes-btn {
+            text-align: center;
+            width: 80%;
+            padding: 10px;
+            font-size: 16px;
+            background-color: darkgrey;
+            color: #000000;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            transform: translate(0%,-100%);
+        }
+
+        .sidebar #create-notes-btn:hover {
+            background-color: grey;
+        }
+
+/* Profile and Logout */
+.maincontent1 {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.profile {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: translate(220%,-10%);
+    flex-direction: column;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px; /* Placeholder image to the left of profile name */
+}
+
+.profile h3 {
+    margin-right: 20px;
+    color: #333;
+    align-items: center;
+    display: flex;
+}
+
+.profile a {
+    padding: 10px;
+    background-color: transparent; /* Transparent background */
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    transform: translate(130%,-30%);
+}
+
+.profile a:hover {
+    background-color: rgb(211, 211, 211); /* Grey background on hover */
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 320px; /* Space for the sidebar */
+    padding: 20px;
+}
+
+/* Status Bar */
+#status-bar {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Quiz Specific Styles */
+.progress-bar {
+    width: 0%;
+}
+
+.question-container {
+    margin: 20px auto;
+    width: 50%;
+
+}
+.question-container h4{
+    font-size:35px;
+}
+
+.option {
+    margin: 10px 0;
+}
+
+.question-progress {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.answer-display {
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}

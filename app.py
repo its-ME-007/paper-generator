@@ -6,7 +6,7 @@ import os
 from datetime import datetime
 import unicodedata
 from collections import defaultdict
-import google.genai as genai
+from groq import Groq
 from dotenv import load_dotenv
 
 # Import Braille pipeline
@@ -16,8 +16,8 @@ load_dotenv()
 
 app = Flask(__name__)
 
-# Initialize Gemini for grading
-client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+# Initialize Groq for grading
+client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 TRACKING_FILE = 'question_usage_tracking.json'
 SUBMISSIONS_DIR = 'submissions'
@@ -140,11 +140,6 @@ def index():
         'passage': len(questions_db['passage'])
     }
     return render_template('paper_generator.html', presets=PRESETS, counts=counts)
-
-@app.route('/health')
-def health_check():
-    """Simple health check endpoint for monitoring"""
-    return jsonify({'status': 'healthy', 'timestamp': datetime.now().isoformat()}), 200
 
 @app.route('/generate', methods=['POST'])
 def generate_paper():
@@ -418,19 +413,42 @@ IMPORTANT: The output must be a valid JSON array that can be parsed by json.load
 Questions to translate:
 {batch_json}"""
             
-            response = client.models.generate_content(
-                model='gemini-2.5-flash-lite',
-                contents=prompt
+            response = client.chat.completions.create(
+                model='llama-3.3-70b-versatile',
+                messages=[
+                    {
+                        "role": "system", 
+                        "content": "You are a professional translator. You MUST respond with ONLY a valid JSON array. No explanations, no markdown, no extra text - just the JSON array."
+                    },
+                    {
+                        "role": "user", 
+                        "content": prompt
+                    }
+                ],
+                temperature=0.1,  # Lower temperature for more consistent JSON
+                response_format={"type": "json_object"}  # Force JSON response
             )
-            
-            # Parse response with better error handling
-            ai_response = response.text.strip()
+            # Parse response
+            ai_response = response.choices[0].message.content.strip()
             
             # Remove markdown code blocks
             if ai_response.startswith('```json'):
                 ai_response = ai_response.split('```json', 1)[1].split('```', 1)[0].strip()
             elif ai_response.startswith('```'):
                 ai_response = ai_response.split('```', 1)[1].split('```', 1)[0].strip()
+            
+            # If response is a JSON object with an array inside, extract it
+            # (Some models wrap arrays in {"data": [...]} or {"result": [...]})
+            if ai_response.startswith('{'):
+                try:
+                    temp_obj = json.loads(ai_response)
+                    # Look for array in common keys
+                    for key in ['data', 'result', 'questions', 'translated', 'items']:
+                        if key in temp_obj and isinstance(temp_obj[key], list):
+                            ai_response = json.dumps(temp_obj[key])
+                            break
+                except:
+                    pass
             
             # Remove any leading/trailing text that's not part of JSON
             # Find the first [ and last ]
@@ -439,6 +457,10 @@ Questions to translate:
             
             if start_idx != -1 and end_idx != -1:
                 ai_response = ai_response[start_idx:end_idx+1]
+            
+            # Fix common JSON issues
+            ai_response = ai_response.replace('\n', ' ')  # Remove newlines
+            ai_response = ai_response.replace('\r', '')   # Remove carriage returns
             
             try:
                 batch_translated = json.loads(ai_response)
@@ -450,8 +472,12 @@ Questions to translate:
             except json.JSONDecodeError as e:
                 # Log the problematic response for debugging
                 print(f"JSON Parse Error at batch {i//batch_size + 1}: {e}")
-                print(f"Problematic response (first 500 chars): {ai_response[:500]}")
-                raise ValueError(f"Failed to parse AI translation response at batch {i//batch_size + 1}. Error: {str(e)}")
+                print(f"Problematic response: {ai_response[:1000]}")
+                
+                # Try to salvage partial data - skip this batch and continue
+                print(f"Skipping batch {i//batch_size + 1}, continuing with next batch...")
+                # Use original questions for this batch as fallback
+                translated_questions.extend(batch)
         
         # Generate PDF with translated content
         pdf_path = generate_translated_pdf(translated_questions, paper_id, target_lang)
@@ -641,20 +667,33 @@ Rules:
 - Include ALL {total_questions} questions in the response
 - Return ONLY the JSON object, no other text"""
 
-        # Call Gemini Vision API
+        # Call Groq Vision API with llama-3.2-90b-vision-preview
+        import base64
         with open(image_path, 'rb') as img_file:
             image_data = img_file.read()
+            image_base64 = base64.b64encode(image_data).decode('utf-8')
         
-        response = client.models.generate_content(
-            model='gemini-2.0-flash-exp',
-            contents=[
-                prompt,
-                {'mime_type': 'image/jpeg', 'data': image_data}
-            ]
+        response = client.chat.completions.create(
+            model='llama-3.2-90b-vision-preview',
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": prompt},
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": f"data:image/jpeg;base64,{image_base64}"
+                            }
+                        }
+                    ]
+                }
+            ],
+            temperature=0.1
         )
         
         # Parse extracted answers
-        ai_response = response.text.strip()
+        ai_response = response.choices[0].message.content.strip()
         # Remove markdown code blocks if present
         if ai_response.startswith('```json'):
             ai_response = ai_response.split('```json')[1].split('```')[0].strip()
@@ -761,11 +800,15 @@ Provide:
 
 Keep it professional, constructive, and encouraging."""
     
-    response = client.models.generate_content(
-        model='gemini-2.0-flash-exp',
-        contents=prompt
+    response = client.chat.completions.create(
+        model='llama-3.3-70b-versatile',
+        messages=[
+            {"role": "system", "content": "You are an expert UPSC examiner providing constructive, professional feedback."},
+            {"role": "user", "content": prompt}
+        ],
+        temperature=0.7
     )
-    return response.text
+    return response.choices[0].message.content
 
 @app.route('/grade_ai/<submission_id>', methods=['POST'])
 def grade_with_ai(submission_id):

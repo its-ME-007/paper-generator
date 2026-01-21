@@ -3,15 +3,13 @@ High-level text to Braille conversion.
 Handles question paper text structure.
 """
 
-from braille.louis_adapter import get_status
-from braille.pipeline import translate_pipeline
+from braille.louis_adapter import translate, get_status
 
 def text_to_braille(text):
     """
-    Convert text to Braille using the 2-layer pipeline.
+    Convert text to Braille using best available method.
     
-    Layer 1: Scan & Convert existing Braille to Natural Language
-    Layer 2: Generate fresh Braille
+    This is the main public API for text conversion.
     
     Args:
         text: String to convert
@@ -19,7 +17,7 @@ def text_to_braille(text):
     Returns:
         str: Braille text
     """
-    return translate_pipeline(text)
+    return translate(text)
 
 def convert_question(question_text, clean_text_fn):
     """
@@ -33,7 +31,7 @@ def convert_question(question_text, clean_text_fn):
         str: Braille question text
     """
     cleaned = clean_text_fn(question_text)
-    return translate_pipeline(cleaned)
+    return translate(cleaned)
 
 def convert_option(option_text, clean_text_fn):
     """
@@ -47,7 +45,7 @@ def convert_option(option_text, clean_text_fn):
         str: Braille option text
     """
     cleaned = clean_text_fn(option_text)
-    return translate_pipeline(cleaned)
+    return translate(cleaned)
 
 def convert_passage(passage_text, clean_text_fn):
     """
@@ -61,7 +59,7 @@ def convert_passage(passage_text, clean_text_fn):
         str: Braille passage text
     """
     cleaned = clean_text_fn(passage_text)
-    return translate_pipeline(cleaned)
+    return translate(cleaned)
 
 def convert_statement(statement_text, clean_text_fn):
     """
@@ -75,7 +73,7 @@ def convert_statement(statement_text, clean_text_fn):
         str: Braille statement text
     """
     cleaned = clean_text_fn(statement_text)
-    return translate_pipeline(cleaned)
+    return translate(cleaned)
 
 def get_braille_status():
     """

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +14,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #f0f0f0;
             min-height: 100vh;
             padding: 20px;
         }
@@ -34,7 +35,7 @@
 
         .nav-btn {
             padding: 10px 20px;
-            background: #667eea;
+            background: #4CAF50;
             color: white;
             text-decoration: none;
             border-radius: 5px;
@@ -43,11 +44,11 @@
         }
 
         .nav-btn:hover {
-            background: #5568d3;
+            background: #45a049;
         }
 
         .nav-btn.active {
-            background: #764ba2;
+            background: #388E3C;
         }
 
         .container {
@@ -76,7 +77,8 @@
             color: #555;
         }
 
-        input[type="text"], select {
+        input[type="text"],
+        select {
             width: 100%;
             padding: 12px;
             border: 2px solid #ddd;
@@ -85,37 +87,16 @@
             transition: border-color 0.3s;
         }
 
-        input[type="text"]:focus, select:focus {
+        input[type="text"]:focus,
+        select:focus {
             outline: none;
-            border-color: #667eea;
-        }
-
-        .questions-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-            gap: 15px;
-            margin: 30px 0;
-        }
-
-        .question-item {
-            text-align: center;
-        }
-
-        .question-item label {
-            font-size: 0.9em;
-            margin-bottom: 5px;
-        }
-
-        .question-item select {
-            padding: 8px;
-            text-align: center;
-            font-weight: 600;
+            border-color: #4CAF50;
         }
 
         .submit-btn {
             width: 100%;
             padding: 18px;
-            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            background: #4CAF50;
             color: white;
             border: none;
             border-radius: 10px;
@@ -126,6 +107,7 @@
         }
 
         .submit-btn:hover {
+            background: #45a049;
             transform: translateY(-2px);
         }
 
@@ -161,7 +143,7 @@
 
         .spinner {
             border: 4px solid #f3f3f3;
-            border-top: 4px solid #667eea;
+            border-top: 4px solid #4CAF50;
             border-radius: 50%;
             width: 40px;
             height: 40px;
@@ -170,38 +152,25 @@
         }
 
         @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
         }
 
         .info-box {
             background: #f0f4ff;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #4CAF50;
             padding: 15px;
             margin-bottom: 25px;
             border-radius: 5px;
         }
-
-        .progress-bar {
-            background: #e9ecef;
-            border-radius: 10px;
-            height: 30px;
-            margin: 20px 0;
-            overflow: hidden;
-        }
-
-        .progress-fill {
-            background: linear-gradient(90deg, #28a745, #20c997);
-            height: 100%;
-            transition: width 0.3s;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-weight: 600;
-        }
     </style>
 </head>
+
 <body>
     <div class="nav-bar">
         <a href="/" class="nav-btn">📝 Generate Paper</a>
@@ -243,8 +212,8 @@
 
             <div class="form-group" id="imageUploadSection" style="display: none;">
                 <label for="answerSheet">Upload Answer Sheet Image:</label>
-                <input type="file" id="answerSheet" name="answer_sheet" accept="image/*" capture="camera" required 
-                       style="padding: 15px; border: 3px dashed #667eea; background: #f8f9fa; cursor: pointer;">
+                <input type="file" id="answerSheet" name="answer_sheet" accept="image/*" capture="camera" required
+                    style="padding: 15px; border: 3px dashed #4CAF50; background: #f8f9fa; cursor: pointer;">
                 <p style="margin-top: 10px; color: #666; font-size: 0.9em;">
                     📱 Supported formats: JPG, PNG, HEIC | Max size: 10MB<br>
                     💡 Tip: Ensure good lighting and all answers are clearly visible
@@ -283,7 +252,7 @@
             try {
                 const response = await fetch(`/get_paper/${paperId}`);
                 const data = await response.json();
-                
+
                 if (response.ok) {
                     currentPaper = data;
                     displayPaper(data);
@@ -300,17 +269,17 @@
             document.getElementById('paperId').textContent = paper.paper_id;
             document.getElementById('totalQuestions').textContent = paper.questions.length;
             document.getElementById('generatedAt').textContent = new Date(paper.generated_at).toLocaleString();
-            
+
             document.getElementById('imageUploadSection').style.display = 'block';
             document.getElementById('submitBtn').disabled = false;
         }
 
         // Image preview
-        document.getElementById('answerSheet').addEventListener('change', function(e) {
+        document.getElementById('answerSheet').addEventListener('change', function (e) {
             const file = e.target.files[0];
             if (file) {
                 const reader = new FileReader();
-                reader.onload = function(e) {
+                reader.onload = function (e) {
                     document.getElementById('previewImg').src = e.target.result;
                     document.getElementById('imagePreview').style.display = 'block';
                 };
@@ -319,7 +288,7 @@
         });
 
         // Form submission
-        document.getElementById('submissionForm').addEventListener('submit', async function(e) {
+        document.getElementById('submissionForm').addEventListener('submit', async function (e) {
             e.preventDefault();
 
             const studentName = document.getElementById('studentName').value.trim();
@@ -372,7 +341,7 @@
                         <strong>Correct:</strong> ${data.statistics.correct} | 
                         <strong>Incorrect:</strong> ${data.statistics.incorrect} | 
                         <strong>Unanswered:</strong> ${data.statistics.unanswered}<br><br>
-                        <a href="/results/${data.submission_id}" style="color: #667eea; font-weight: 600;">
+                        <a href="/results/${data.submission_id}" style="color: #4CAF50; font-weight: 600;">
                             📊 View Detailed Results & AI Feedback
                         </a>
                     `;
@@ -393,4 +362,5 @@
         });
     </script>
 </body>
+
 </html>

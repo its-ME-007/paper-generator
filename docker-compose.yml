@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - FLASK_ENV=development
+      # It will automatically read other vars from .env file
+    env_file:
+      - .env
+    volumes:
+      # Mount these directories so generated files appear on your host machine
+      - ./generated_papers:/app/generated_papers
+      - ./submissions:/app/submissions
+      - ./answer_keys:/app/answer_keys
+      - ./question_usage_tracking.json:/app/question_usage_tracking.json
+    restart: always
